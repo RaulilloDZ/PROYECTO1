@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+
+/*GLOBALES*/
+
+h1 {
+    font-size: 3.8rem;
+}
+
+h2 {
+    font-size: 3.4rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+
+/*HEADER*/
+
+.logo {
+    width: 10%;
+    margin-left: 5%;
+    margin-bottom: 0;
+}
+
+
+/*ICONO MENU RESPONSIVE*/
+
+.menu-icon {
+    display: none;
+}
+
+
+/*^^^^ICONO MENU RESPONSIVE^^^^*/
+
+.barra {
+    background-color: #333333;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    padding-top: 1%;
+}
+
+.navegacion {
+    display: flex;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+.navegacion a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.8rem;
+    margin-right: 3rem;
+}
+
+.navegacion a:hover {
+    color: rgb(20, 167, 130);
+}
+
+.contenido-header {
+    background-image: url(../images/header.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 60rem;
+}
+
+.contenido-header h1 {
+    text-align: center;
+    padding-top: 30%;
+    color: rgb(20, 167, 130);
+}
+
+
+/*
+ --------COSILLAS RESPONSIVE----- 
+
+
+@media only screen and (max-width:1000px) {
+    .logo {
+        width: 20%;
+        margin-left: 19%;
+        margin-top: 2%;
+        margin-bottom: 0;
+        min-width: 20%;
+    }
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+        color: white;
+        margin-top: 3%;
+        margin-right: 3%;
+        text-align: center;
+    }
+    .barra {
+        background-color: #333333;
+        width: 100%;
+        display: flex;
+        position: fixed;
+        padding-top: 1%;
+    }
+    .navegacion a {
+        display: none;
+    }
+}
+
+
+
+*/
