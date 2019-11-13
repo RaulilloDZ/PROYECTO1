@@ -3,23 +3,26 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="author" content="">
+    <meta name="author" content="EPITCO">
     <meta name="keywords" content="">
     <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="initial-scale=1, width=device-width">
 
     <title>EPITCO | Proyectos digitales</title>
     <link rel="shortcut icon" href="images/favicon.png" type="image/png">
-    <!-- Latest compiled and minified CSS -->
+<!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/estilos.css">
-    <script src="js/main.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-
+    <link rel="stylesheet" href="css/estilos.css">
+<!-- Tipografia -->
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
+
+<!-- Estos de abajo no se ni por que estan ni para que -->
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 </head>
@@ -27,32 +30,24 @@
 <body>
     <header>
         <div class="contenido-header">
-            <div id="menu" class="barra navbar-dark">
+            <div id="navbar" class="barra navbar-dark">
                 <a href="index.html">
                     <!--PODEMOS PONER EL AZUL O EL BLANCO.....-->
                     <img class="logo" src="images/LogoEPIT AZUL.png" alt="Logo">
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navegacion">
-                    <span  class="navbar-toggler-icon"></span>
-                </button>
-                <nav style="display: none;" class="navegacion">
+                <div class="myicono"><i class="fa fa-bars" aria-hidden="true"></i></div>
+                <nav class="navegacion lista-sm">
                     <a href="#nosotros">NOSOTROS</a>
                     <a href="#servicios">SERVICIOS</a>
                     <a href="#proyectos">PROYECTOS</a>
                     <a href="#actualidad">ACTUALIDAD</a>
-                    <!--BOTON COLLAPSE-->
-
                 </nav>
-
             </div>
-
-
         </div>
     </header>
 
 
     <main>
-
 
         <div id="nosotros" class="contenido">
             <div class="columnas">
@@ -81,13 +76,7 @@
 
 
     <footer>
-        <div class="footer">
-            <h6>Todos los derechos reservados..........</h6>
-        </div>
-
-
-
-
+        <p>Copyright (c) 2019 Copyright Holder All Rights Reserved.</p>
     </footer>
 
 
@@ -100,14 +89,15 @@
     <!------------------DETECTO EL SCROLL-------------------->
     <script>
         $(window).scroll(function() {
-            if ($("#menu").offset().top > 10) {
-                $("#menu").addClass("barra-scroll");
+            if ($("#navbar").offset().top > 10) {
+                $("#navbar").addClass("barra-scroll");
             } else {
-                $("#menu").removeClass("barra-scroll");
+                $("#navbar").removeClass("barra-scroll");
             }
         });
     </script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	   <script src="js/menuResponsive.js"></script>
 </body>
 
 </html>
