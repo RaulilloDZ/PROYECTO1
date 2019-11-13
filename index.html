@@ -8,35 +8,45 @@
     <meta name="description" content="">
     <meta name="viewport" content="initial-scale=1, width=device-width">
 
-    <title>Proyecto 1 | Servicios de limpieza</title>
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>EPITCO | Proyectos digitales</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" href="css/boot/bootstrap-grid.css">
     <script src="js/main.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 
-    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
 </head>
 
 <body>
     <header>
         <div class="contenido-header">
-            <div id="menu" class="barra">
+            <div id="menu" class="barra navbar-dark">
                 <a href="index.html">
-                    <img class="logo" src="images/logo.png" alt="Logo">
+                    <!--PODEMOS PONER EL AZUL O EL BLANCO.....-->
+                    <img class="logo" src="images/LogoEPIT AZUL.png" alt="Logo">
                 </a>
-                <nav class="navegacion">
-                    <a href="#nosotros">Nosotros</a>
-                    <a href="#galeria">Servicios</a>
-                    <a href="#clientes">Clientes</a>
-                    <a href="#contacto">Contacto</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navegacion">
+                    <span  class="navbar-toggler-icon"></span>
+                </button>
+                <nav style="display: none;" class="navegacion">
+                    <a href="#nosotros">NOSOTROS</a>
+                    <a href="#servicios">SERVICIOS</a>
+                    <a href="#proyectos">PROYECTOS</a>
+                    <a href="#actualidad">ACTUALIDAD</a>
+                    <!--BOTON COLLAPSE-->
 
                 </nav>
+
             </div>
 
-            <h1 class="center">EPITCO</h1>
-            <h2 class="center">ESCUELA PRÁCTICA DE INGENIERÍA TÉCNICA</h2>
+
         </div>
     </header>
 
@@ -44,16 +54,16 @@
     <main>
 
 
-        <div id="nosotros" class="nosotros">
-            <h4>QUIENES SOMOS</h4>
-
+        <div id="nosotros" class="contenido">
             <div class="columnas">
                 <div class="col">
-                    <h3>Soluciones digitales para empresas</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum neque nobis natus vero in, modi maxime assumenda asperiores itaque deserunt, quos, inventore provident dolores dolor quo deleniti accusamus sapiente excepturi.</p>
+                    <h3>Conócenos</h3>
+                    <p>EPIT es un nuevo concepto de empresa destinado al servicio integral en materia de ingeniería, arquitectura e informática de nuestros clientes, combinando experiencia y veteranía con juventud e inquietud en un marco en que la formación
+                        es constante en beneficio nuestro y de quienes depositan su confianza en nosotros.</p>
+                    <a href="conocenos.html">CONÓCENOS</a>
                 </div>
                 <div class="col">
-                    <img src="images/card1.jpg" alt="">
+                    <img src="images/card1.png" alt="conocenos">
                 </div>
             </div>
         </div>
@@ -92,11 +102,8 @@
         $(window).scroll(function() {
             if ($("#menu").offset().top > 10) {
                 $("#menu").addClass("barra-scroll");
-                $("#menu").addClass("navegacion-scroll");
             } else {
                 $("#menu").removeClass("barra-scroll");
-                $("#menu").removeClass("navegacion-scroll");
-
             }
         });
     </script>

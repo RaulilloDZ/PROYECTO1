@@ -1,13 +1,12 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: inherit;
 }
 
 body {
     font-size: 1.6rem;
     line-height: 1.5;
-    background: rgb(5, 163, 255);
+    background: #313131;
 }
 
 
@@ -15,12 +14,10 @@ body {
 
 h1 {
     font-size: 3.8rem;
-    font-family: 'Source Code Pro', monospace;
 }
 
 h2 {
     font-size: 3.4rem;
-    font-family: 'Source Code Pro', monospace;
     color: white;
 }
 
@@ -37,15 +34,6 @@ h4 {
 }
 
 
-/*HEADER*/
-
-.logo {
-    width: 10%;
-    margin-left: 5%;
-    margin-bottom: 0;
-}
-
-
 /*ICONO MENU RESPONSIVE*/
 
 .menu-icon {
@@ -53,49 +41,43 @@ h4 {
 }
 
 
-/*^^^^ICONO MENU RESPONSIVE^^^^*/
+/*HEADER*/
+
+.logo {
+    width: 10%;
+    margin-left: 2rem;
+}
 
 .barra {
-    background-color: none;
+    background-color: #1f1f1f;
     width: 100%;
     display: flex;
     position: fixed;
-    padding-top: 1%;
-    transition: all 1s ease;
+    justify-content: space-between;
+    height: 8vh;
+    align-items: center;
 }
 
 .barra-scroll {
-    background-color: #313131;
-    width: 100%;
-    display: flex;
-    position: fixed;
-    padding-top: 1%;
+    transition: all 0.25s ease;
+    height: 7vh;
 }
 
 .navegacion {
     display: flex;
-    margin-right: 5%;
-    margin-top: 2%;
     font-family: 'Poppins', sans-serif;
 }
 
 .navegacion a {
-    color: #313131;
-    text-decoration: none;
-    font-size: 1.8rem;
-    margin-right: 3rem;
-    transition: all 1s ease;
-}
-
-.navegacion-scroll a {
     color: white;
     text-decoration: none;
-    font-size: 1.8rem;
-    margin-right: 3rem;
+    font-size: 1.3rem;
+    margin-right: 2rem;
+    align-content: center;
 }
 
 .navegacion a:hover {
-    color: rgb(20, 167, 130);
+    color: #5ac2ff;
 }
 
 .contenido-header {
@@ -110,6 +92,7 @@ h4 {
     text-align: center;
     padding-top: 30%;
     color: rgb(20, 167, 130);
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -118,12 +101,12 @@ h4 {
 
 /* NOSOTROS */
 
-.nosotros {
+.contenido {
     background: #313131d3;
     text-align: center;
     width: 90%;
     margin: auto;
-    padding-top: 4%;
+    padding-top: 7%;
     padding-bottom: 8%;
 }
 
@@ -131,28 +114,23 @@ h4 {
     display: flex;
 }
 
-.nosotros h3 {
-    color: white;
-    font-family: 'Poppins', sans-serif;
+.contenido h3 {
+    color: #6cc8fd;
     margin-top: 6%;
     margin-bottom: 5%;
 }
 
-.nosotros h4 {
-    font-size: 3.8rem;
-    font-family: 'Source Code Pro', monospace;
-    color: rgb(50, 144, 135);
-}
-
-.nosotros p {
+.contenido p {
     color: white;
-    font-family: 'Poppins', sans-serif;
     margin-bottom: 10%;
 }
 
-.nosotros img {
+.contenido img {
     width: 75%;
     margin-top: 15%;
+    background: none;
+    padding: 0;
+    color: none;
 }
 
 
@@ -173,20 +151,17 @@ h4 {
 
 .servicios h3 {
     color: white;
-    font-family: 'Poppins', sans-serif;
     margin-top: 6%;
     margin-bottom: 5%;
 }
 
 .servicios h4 {
     font-size: 3.8rem;
-    font-family: 'Source Code Pro', monospace;
     color: rgb(50, 144, 135);
 }
 
 .servicios p {
     color: white;
-    font-family: 'Poppins', sans-serif;
     margin-bottom: 10%;
 }
 
@@ -199,7 +174,7 @@ h4 {
 /* -------------------------FOOTER -------------------------------- */
 
 .footer {
-    background: #313131;
+    background: #0e0e0e;
     color: white;
     padding: 3%;
 }
@@ -240,3 +215,5 @@ h4 {
 
 
 */
+
+-
