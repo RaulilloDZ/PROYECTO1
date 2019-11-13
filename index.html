@@ -11,60 +11,96 @@
     <title>Proyecto 1 | Servicios de limpieza</title>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/boot/bootstrap-grid.css">
     <script src="js/main.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <div class="contenido-header">
-            <div class="barra">
+            <div id="menu" class="barra">
                 <a href="index.html">
                     <img class="logo" src="images/logo.png" alt="Logo">
                 </a>
-                <span class="menu-icon">VER</span>
                 <nav class="navegacion">
-                    <a href="#nostros">Nosotros</a>
-                    <a href="#galeria">Galeria</a>
+                    <a href="#nosotros">Nosotros</a>
+                    <a href="#galeria">Servicios</a>
+                    <a href="#clientes">Clientes</a>
                     <a href="#contacto">Contacto</a>
 
                 </nav>
             </div>
-            <h1>Servicios de limpieza</h1>
+
+            <h1 class="center">EPITCO</h1>
+            <h2 class="center">ESCUELA PRÁCTICA DE INGENIERÍA TÉCNICA</h2>
         </div>
     </header>
 
 
     <main>
 
-        <h2>Tu servicio de limpieza integral más completo</h2>
-<<<<<<< HEAD
-<<<<<<< HEAD
 
+        <div id="nosotros" class="nosotros">
+            <h4>QUIENES SOMOS</h4>
 
-=======
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus cumque dignissimos sit ea esse excepturi fugiat, harum eligendi modi fugit ullam nobis sunt atque. Odit quod reprehenderit rem adipisci quidem.</p>
-        <h2>RAUL DIAZ</h2>
-        <h3>Jochetoaaaa</h3>
-        <h1>Joseto</h1>
->>>>>>> parent of 9a54331... Merge branch 'master' of https://github.com/RaulilloDZ/PROYECTO1
-=======
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus cumque dignissimos sit ea esse excepturi fugiat, harum eligendi modi fugit ullam nobis sunt atque. Odit quod reprehenderit rem adipisci quidem.</p>
-        <h2>RAUL DIAZ</h2>
-        <h3>Jocheto</h3>
+            <div class="columnas">
+                <div class="col">
+                    <h3>Soluciones digitales para empresas</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum neque nobis natus vero in, modi maxime assumenda asperiores itaque deserunt, quos, inventore provident dolores dolor quo deleniti accusamus sapiente excepturi.</p>
+                </div>
+                <div class="col">
+                    <img src="images/card1.jpg" alt="">
+                </div>
+            </div>
+        </div>
 
+        <div id="servicios" class="servicios">
+            <h4>SERVICIOS</h4>
 
-        <p>RAUL</p>
->>>>>>> parent of 0d48c92... Añado Bootstrap
+            <div class="cards">
+                <!--PONER CARDS CON LOS SERVICIOS POR EJEMPLO.......-->
+            </div>
+
+        </div>
+
     </main>
 
 
     <footer>
+        <div class="footer">
+            <h6>Todos los derechos reservados..........</h6>
+        </div>
 
 
 
 
     </footer>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!------------------DETECTO EL SCROLL-------------------->
+    <script>
+        $(window).scroll(function() {
+            if ($("#menu").offset().top > 10) {
+                $("#menu").addClass("barra-scroll");
+                $("#menu").addClass("navegacion-scroll");
+            } else {
+                $("#menu").removeClass("barra-scroll");
+                $("#menu").removeClass("navegacion-scroll");
+
+            }
+        });
+    </script>
+
 </body>
 
 </html>

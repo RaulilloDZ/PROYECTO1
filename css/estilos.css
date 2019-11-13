@@ -7,6 +7,7 @@
 body {
     font-size: 1.6rem;
     line-height: 1.5;
+    background: rgb(5, 163, 255);
 }
 
 
@@ -14,10 +15,13 @@ body {
 
 h1 {
     font-size: 3.8rem;
+    font-family: 'Source Code Pro', monospace;
 }
 
 h2 {
     font-size: 3.4rem;
+    font-family: 'Source Code Pro', monospace;
+    color: white;
 }
 
 h3 {
@@ -26,6 +30,10 @@ h3 {
 
 h4 {
     font-size: 2rem;
+}
+
+.center {
+    text-align: center;
 }
 
 
@@ -48,7 +56,16 @@ h4 {
 /*^^^^ICONO MENU RESPONSIVE^^^^*/
 
 .barra {
-    background-color: #333333;
+    background-color: none;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    padding-top: 1%;
+    transition: all 1s ease;
+}
+
+.barra-scroll {
+    background-color: #313131;
     width: 100%;
     display: flex;
     position: fixed;
@@ -59,9 +76,18 @@ h4 {
     display: flex;
     margin-right: 5%;
     margin-top: 2%;
+    font-family: 'Poppins', sans-serif;
 }
 
 .navegacion a {
+    color: #313131;
+    text-decoration: none;
+    font-size: 1.8rem;
+    margin-right: 3rem;
+    transition: all 1s ease;
+}
+
+.navegacion-scroll a {
     color: white;
     text-decoration: none;
     font-size: 1.8rem;
@@ -84,6 +110,98 @@ h4 {
     text-align: center;
     padding-top: 30%;
     color: rgb(20, 167, 130);
+}
+
+
+/* -------------------------------------------- CONTENIDO MAIN  -------------------------------------- */
+
+
+/* NOSOTROS */
+
+.nosotros {
+    background: #313131d3;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    padding-top: 4%;
+    padding-bottom: 8%;
+}
+
+.columnas {
+    display: flex;
+}
+
+.nosotros h3 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 6%;
+    margin-bottom: 5%;
+}
+
+.nosotros h4 {
+    font-size: 3.8rem;
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(50, 144, 135);
+}
+
+.nosotros p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10%;
+}
+
+.nosotros img {
+    width: 75%;
+    margin-top: 15%;
+}
+
+
+/* SERVICIOS */
+
+.servicios {
+    background: #313131ec;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    padding-top: 4%;
+    padding-bottom: 8%;
+}
+
+.columnas {
+    display: flex;
+}
+
+.servicios h3 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 6%;
+    margin-bottom: 5%;
+}
+
+.servicios h4 {
+    font-size: 3.8rem;
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(50, 144, 135);
+}
+
+.servicios p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10%;
+}
+
+.servicios img {
+    width: 75%;
+    margin-top: 15%;
+}
+
+
+/* -------------------------FOOTER -------------------------------- */
+
+.footer {
+    background: #313131;
+    color: white;
+    padding: 3%;
 }
 
 
