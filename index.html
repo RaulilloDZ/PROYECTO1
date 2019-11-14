@@ -11,16 +11,15 @@
 
     <title>EPITCO | Proyectos digitales</title>
     <link rel="shortcut icon" href="images/favicon.png" type="image/png">
-<!-- Bootstrap -->
+    <!-- Bootstrap -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://use.fontawesome.com/78a03bac99.js"></script>
-<!-- Tipografia -->
+    <!-- Tipografia -->
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
-<!-- Nuestros estilos -->
+    <!-- Nuestros estilos -->
     <link rel="stylesheet" href="css/estilos.css">
-<!-- Estos de abajo no se ni por que estan ni para que -->
-
+    <!--Firebase Hosting-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
@@ -28,44 +27,86 @@
 
 <body>
     <header>
-        <div class="bara">
+        <div class="barra">
             <nav id="navbar">
-            		<a href="index.html"><img class="logo" src="images/favicon.png"></a>
-             		<div class="myicono"><i class="fa fa-bars" aria-hidden="true"></i></div>
-             		<ul class="lista-sm">
-               			<li><a href="">NOSOTROS</a></li>
-               			<li><a href="">SERVICIOS</a></li>
-               			<li><a href="">PROYECTOS</a></li>
-               			<li><a href="">ACTUALIDAD</a></li>
-             		</ul>
+                <a href="index.html"><img class="logo" src="images/favicon.png"></a>
+                <div class="myicono"><i class="fa fa-bars" aria-hidden="true"></i></div>
+                <ul class="lista-sm">
+                    <li><a href="">NOSOTROS</a></li>
+                    <li><a href="">SERVICIOS</a></li>
+                    <li><a href="">PROYECTOS</a></li>
+                    <li><a href="">ACTUALIDAD</a></li>
+                </ul>
             </nav>
         </div>
         <div class="contenido-header"></div>
-
     </header>
     <main>
         <div id="nosotros" class="contenido">
+            <h3>Conócenos</h3>
             <div class="columnas">
-                <div class="col">
-                    <h3>Conócenos</h3>
+                <div class="col-1">
                     <p>EPIT es un nuevo concepto de empresa destinado al servicio integral en materia de ingeniería, arquitectura e informática de nuestros clientes, combinando experiencia y veteranía con juventud e inquietud en un marco en que la formación
                         es constante en beneficio nuestro y de quienes depositan su confianza en nosotros.</p>
-                    <a href="conocenos.html">CONÓCENOS</a>
+                    <a href="conocenos.html">BOTON CONÓCENOS</a>
                 </div>
-                <div class="col">
+                <div class="col-2">
                     <img src="images/card1.png" alt="conocenos">
                 </div>
             </div>
         </div>
 
-        <div id="servicios" class="servicios">
-            <h4>SERVICIOS</h4>
+        <div class="seccionB">
+            <div id="nuestra-oferta" class="contenido">
+                <h3>Nuestra Oferta</h3>
+                <div class="columnas">
+                    <div class="col-2">
+                        <img src="images/card2.png" alt="nuestra oferta">
+                    </div>
+                    <div class="col-1">
+                        <p>Desde EPIT ofrecemos a empresas y particulares una amplia serie de servicios para aportar soluciones a las distintas demandas en materia de ingeniería, informática y arquitectura, desde una dirección de obra, la expedición de un
+                            certificado de baja tensión, la impresión de cualquier repuesto en 3D...</p>
+                        <a href="servicios.html">BOTON SERVICIOS</a>
+                    </div>
 
-            <div class="cards">
-                <!--PONER CARDS CON LOS SERVICIOS POR EJEMPLO.......-->
+                </div>
             </div>
-
         </div>
+
+
+        <div class="seccionC">
+            <div id="nuestro-equipo" class="contenido">
+                <h3>Nuestro Equipo</h3>
+
+
+                <div class="col-2">
+                    <img src="images/card3.png" alt="nuestro equipo">
+                </div>
+                <h4>"Una gran combinación"</h4>
+
+                <p>La filosofía de nuestra empresa respecto al trabajo en equipo vas más allá de una simple relación profesional entre nuestros empleados, sino que hemos introducido una filosofía multidisciplinar tanto para el desarrollo de los proyectos
+                    de nuestro clientes como para la propia convivencia en la proyección de dichos proyectos por nuestros empleados. </p>
+                <a href="servicios.html">BOTON SERVICIOS</a>
+            </div>
+        </div>
+
+
+        <div class="seccionD">
+            <div id="nuestros-clientes" class="contenido">
+                <h3>Nuestros Clientes</h3>
+
+                <img src="images/card4.png" alt="nuestros clientes">
+
+
+                <p>Nuestra historia no se entendería sin la confianza en forma de proyectos que nuestros clientes depositan en nosotros.</p>
+
+
+
+            </div>
+        </div>
+
+
+
 
     </main>
 
@@ -92,7 +133,7 @@
     </script>
     <!--estos de abajo no borrar-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
- 	  <script src="js/menuResponsive.js"></script>
+    <script src="js/menuResponsive.js"></script>
 </body>
 
 </html>
