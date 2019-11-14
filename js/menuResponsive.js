@@ -17,7 +17,7 @@ $(document).ready(function(){
 			//console.log(urlPath.substring(indice));
 			if(urlPath.substring(indice) === href){
 				//console.log('match');
-				$(this).closest('a').addClass('active');
+				$(this).closest('lista-sm a').addClass('active');
 			}
 		})
 	}
