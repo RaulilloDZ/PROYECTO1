@@ -34,7 +34,7 @@ img {
     max-width: 100%;
 }
 
-a {
+a, a:hover {
     text-decoration: none;
 }
 
@@ -46,17 +46,16 @@ a {
 /* NAVBAR */
 
 .logo {
-    max-width: 100%;
-    width: 50px;
-    height: 50px;
+    max-width: 55%;
+    box-sizing: content-box;
 }
-
 #navbar {
     background-color: #1f1f1f;
     position: fixed;
     display: flex;
     justify-content: space-between;
     width: 100%;
+    align-items: center;
     z-index: 100;
     overflow: hidden;
 }
@@ -65,6 +64,7 @@ a {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    align-items: center;
 }
 
 #navbar li {
@@ -72,10 +72,9 @@ a {
 }
 
 #navbar li a {
-    padding: 15px;
+    padding: 15px 30px 15px 15px;
     display: inline-block;
-    text-decoration: none;
-    font-size: 1em;
+    font-size: 1.2em;
     text-align: center;
     color: white;
 }
@@ -112,7 +111,7 @@ a {
         display: block;
     }
     #navbar li a {
-        padding: 5px;
+        padding: 0 0 10px 15px;
         text-align: left;
         width: 100%;
     }
@@ -138,14 +137,46 @@ a {
 
 @media screen and (max-width: 600px) {
     .contenido-header {
-        background-image: url(../images/header.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
         background-position: top;
         height: auto;
     }
 }
-
+.contenido-header .more{
+    transition: transform 0.75s ease, opacity 0.75s ease-out;
+    transition-delay: 1s;
+    transform: translateY(0);
+    border: none;
+    bottom: 0;
+    color: black;
+    font-size: 0.8em;
+    height: 8.5em;
+    left: 50%;
+    letter-spacing: 0.225em;
+    margin-left: -8.5em;
+    opacity: 1;
+    outline: 0;
+    padding-left: 0.225em;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    width: 16em;
+    z-index: 1;
+}
+.contenido-header .more:after {
+    background-image: url(../images/arrow.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: 4em;
+    color: balck;
+    content: '';
+    display: block;
+    height: 1.5em;
+    left: 50%;
+    margin: 0 0 0 -0.75em;
+    position: absolute;
+    width: 1.5em;
+}
 
 /* -------------------------------------------- CONTENIDO MAIN  -------------------------------------- */
 
@@ -308,31 +339,7 @@ a {
 /* -------------------------FOOTER -------------------------------- */
 
 footer {
-    background-color: #0e0e0e;
+    background-color: #313131;
     color: white;
-}
-
-footer p {
-    margin: 0;
-}
-
-
-/*--------COSILLAS RESPONSIVE-----*/
-
-@media screen and (max-width: 600px) {
-    .lista-sm {
-        display: none;
-    }
-    #navbar li {
-        float: none;
-        display: block;
-    }
-    #navbar li a {
-        padding: 5px;
-        text-align: left;
-        width: 100%;
-    }
-    .myicono {
-        display: block;
-    }
+    width: 100%;
 }
