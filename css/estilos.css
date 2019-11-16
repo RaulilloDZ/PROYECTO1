@@ -1,4 +1,6 @@
-*, *:before, *:after{
+*,
+*:before,
+*:after {
     padding: 0;
     margin: 0;
 }
@@ -34,7 +36,8 @@ img {
     max-width: 100%;
 }
 
-a, a:hover {
+a,
+a:hover {
     text-decoration: none;
 }
 
@@ -46,10 +49,20 @@ a, a:hover {
 /* NAVBAR */
 
 .logo {
+    margin-left: 15%;
     max-width: 55%;
     box-sizing: content-box;
 }
-#navbar {
+
+.logo-scroll {
+    margin-left: 15%;
+    max-width: 38%;
+    transition: all 1s ease;
+}
+
+.barra {
+    height: 12%;
+    /*Le he dado un pelín de grosor al nav para darle más presencia y reducirlo cuando scroll*/
     background-color: #1f1f1f;
     position: fixed;
     display: flex;
@@ -58,6 +71,11 @@ a, a:hover {
     align-items: center;
     z-index: 100;
     overflow: hidden;
+}
+
+.barra-scroll {
+    height: 8%;
+    transition: all 1s ease;
 }
 
 #navbar ul {
@@ -103,7 +121,8 @@ a, a:hover {
     .lista-sm {
         display: none;
     }
-    #navbar {
+    .barra {
+        height: auto;
         display: block;
     }
     #navbar li {
@@ -134,9 +153,10 @@ a, a:hover {
     min-height: 40rem;
     background-repeat: no-repeat;
 }
-.contenido-header .more{
+
+.contenido-header .more {
     transition: transform 0.75s ease, opacity 0.75s ease-out;
-    transition-delay: 1s;
+    transition-delay: 2s;
     transform: translateY(0);
     border: none;
     bottom: 0;
@@ -155,13 +175,13 @@ a, a:hover {
     width: 16em;
     z-index: 1;
 }
+
 .contenido-header .more:after {
     background-image: url(../images/arrow.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     bottom: 4em;
-    color: balck;
     content: '';
     display: block;
     height: 1.5em;
@@ -170,13 +190,15 @@ a, a:hover {
     position: absolute;
     width: 1.5em;
 }
+
 @media screen and (max-width: 600px) {
     .contenido-header {
         background-position: top;
         height: auto;
     }
-    .contenido-header .more, .more:after{
-      display: none;
+    .contenido-header .more,
+    .more:after {
+        display: none;
     }
 }
 
@@ -307,7 +329,6 @@ a, a:hover {
 
 .seccionD {
     background: #ffffff;
-    padding-bottom: 1%;
     margin: auto;
 }
 
@@ -333,30 +354,28 @@ a, a:hover {
     padding: 0;
 }
 
-.seccionD {
-    background: #ffffff;
-    padding-bottom: 1%;
-}
-
 
 /* -------------------------FOOTER -------------------------------- */
 
-.footer{
-	display: flex;
-	justify-content: space-around;
-}
-.nav-footer ul{
-	padding-left: 6px;
-}
-.nav-footer ul li{
-	list-style: none;
+.footer {
+    display: flex;
+    justify-content: space-around;
 }
 
-.footer i{
-	float: left;
-	margin-right: 8px;
+.nav-footer ul {
+    padding-left: 6px;
 }
-.copy{
-	display: flex;
-	justify-content: space-around;
+
+.nav-footer ul li {
+    list-style: none;
+}
+
+.footer i {
+    float: left;
+    margin-right: 8px;
+}
+
+.copy {
+    display: flex;
+    justify-content: space-around;
 }
