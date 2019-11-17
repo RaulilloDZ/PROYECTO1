@@ -61,7 +61,7 @@ a:hover {
 }
 
 .barra {
-    height: 11%;
+    height: 8%;
     /*Le he dado un pelín de grosor al nav para darle más presencia y reducirlo cuando scroll*/
     background-color: #1f1f1f;
     position: fixed;
@@ -74,7 +74,7 @@ a:hover {
 }
 
 .barra-scroll {
-    height: 8%;
+    height: 6%;
     transition: all 0.3s ease;
 }
 
@@ -117,8 +117,7 @@ a:hover {
     display: block;
 }
 
-/* IMAGEN HEADER */
-
+/* HEADER */
 .contenido-header {
     background-image: url(../images/header.jpg);
     background-position: center center;
@@ -128,7 +127,7 @@ a:hover {
     background-repeat: no-repeat;
 }
 
-.contenido-header .more {
+.more {
     transition: transform 0.75s ease, opacity 0.75s ease-out;
     transition-delay: 2s;
     transform: translateY(0);
@@ -149,7 +148,6 @@ a:hover {
     width: 16em;
     z-index: 1;
 }
-
 .contenido-header .more:after {
     background-image: url(../images/arrow.svg);
     background-position: center;
@@ -170,7 +168,7 @@ a:hover {
 .contenido {
     text-align: center;
     width: 90%;
-    margin: 0 auto 5% auto;
+    margin: 0 auto;
 }
 .columnas {
     display: flex;
@@ -204,7 +202,6 @@ a:hover {
 
 .seccionB {
     background: #ffffff;
-    padding-bottom: 1%;
 }
 .seccionB .contenido .columnas .col-1 {
     padding-bottom: 6%;
@@ -216,7 +213,9 @@ a:hover {
 
 
 /* NUESTRO EQUIPO*/
-
+.seccionC{
+  padding-bottom: 26px;
+}
 .seccionC .contenido h4 {
     margin: 0;
     color: #cacaca;
@@ -244,6 +243,9 @@ a:hover {
     background: #ffffff;
     margin: auto;
 }
+.seccionD .contenido{
+  margin-bottom: 0;
+}
 .seccionD .contenido p {
     color: #777777;
     padding-top: 5%;
@@ -259,6 +261,9 @@ a:hover {
 }
 
 /* -------------------------FOOTER -------------------------------- */
+footer{
+  padding-top: 25px;
+}
 .footer {
     display: flex;
     justify-content: space-around;
