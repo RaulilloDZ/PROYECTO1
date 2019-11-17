@@ -246,6 +246,32 @@ a:hover {
     padding: 0;
 }
 
+@media screen and (max-width: 600px) {
+    .contenido {
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+    .columnas {
+        display: block;
+        width: 100%;
+    }
+    .contenido .columnas .col-1 {
+        width: 100%;
+        padding-top: 3%;
+        padding-left: 9%;
+        text-align: center;
+    }
+    .contenido .columnas .col-2 {
+        margin: 0;
+        width: 100%;
+    }
+    .contenido .columnas img {
+        width: 75%;
+        padding-top: 4%;
+    }
+}
+
 
 /* NUESTRA OFERTA*/
 
@@ -264,6 +290,7 @@ a:hover {
 
 .seccionB .contenido .columnas .col-1 {
     padding-top: 3%;
+    padding-bottom: 6%;
     margin: 0;
 }
 
@@ -324,6 +351,14 @@ a:hover {
     padding: 0;
 }
 
+@media screen and (max-width: 600px) {
+    .seccionC .contenido .mobile100 img {
+        width: 100%;
+        padding-top: 3%;
+        padding-bottom: 2%;
+    }
+}
+
 
 /* NUESTROS CLIENTES*/
 
@@ -352,6 +387,14 @@ a:hover {
 .seccionD .contenido img {
     width: 75%;
     padding: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .seccionD .contenido img {
+        width: 100%;
+        padding-top: 3%;
+        padding-bottom: 2%;
+    }
 }
 
 
