@@ -262,11 +262,16 @@ a:hover {
 
 /* -------------------------FOOTER -------------------------------- */
 footer{
-    padding-top: 25px;
+  	padding-top: 20px;
 }
-.footer {
-    display: flex;
-    justify-content: space-around;
+.footer{
+	padding:2%;
+	padding-top: 0;
+}
+.footer-col-1 {
+	display: inline-block;
+    width: 33%;
+    float:left;
 }
 .nav-footer ul {
     padding-left: 6px;
@@ -274,15 +279,28 @@ footer{
 .nav-footer ul li {
     list-style: none;
 }
-.footer i {
+.footer-col-2{
+	display: inline-block;
+	width: 33%;
+    float:left;
+}
+.footer-col-3{
+	display: inline-block;
+	width: 33%;
+    float:right;
+}
+footer i {
     float: left;
     margin-right: 8px;
 }
+hr{
+	width: 100%;
+}
 .copy {
+	width: 100%;
     display: flex;
     justify-content: space-around;
 }
-
 /*-----------------------RESPONSIVE PARA MOVILES---------------------------*/
 @media screen and (max-width: 600px) {
     .lista-sm {
@@ -350,20 +368,29 @@ footer{
 
 
 
-    .footer-col-1, .footer-col-2{
-        display: inline;
-        width:50%;
+    footer{
+      	padding-top: 15px;
     }
-    .footer-col-3{
-      width: 100%;
+    .footer {
+        padding: 5%;
+        padding-top: 0;
     }
+    .footer-col-1 {
+	    width: 50%;
+	}
+	.footer-col-2{
+		width: 50%;
+	    float:right;
+	}
+	.footer-col-3{
+		width: 100%;
+	    float:left;
+	}
+	.copy{
+		font-size: 0.9em;
+	}
     hr{
       margin-top: 10px;
-      border-top: 0.5px solid #eee;
-    }
-    .copy{
-      display: block;
-      font-size: 0.8em;
-      text-align: center;
+      border-top: 0.7px solid #eee;
     }
 }
