@@ -4,7 +4,7 @@ $(document).ready(function() {
     $('.myicono').click(function(e) {
 
         $('#navbar ul').toggleClass('lista-sm');
-
+        $('#navbar p.logo-movil-off').toggleClass('logo-movil-on');
     })
 
     function configurarInicio() {
