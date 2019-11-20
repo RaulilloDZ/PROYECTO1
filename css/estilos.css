@@ -311,52 +311,45 @@ footer {
     padding-top: 20px;
 }
 
-.footer {
-    padding: 2%;
-    padding-top: 0;
+.footer{
+	padding:2%;
+	padding-top: 0;
 }
+.footer-col-1-2 {
+	display: inline-block;
+    width: 66%;
+    float:left;
+    text-align: center;
 
-.footer-col-1 {
-    display: inline-block;
-    width: 33%;
-    float: left;
 }
+.footer-col-1-2 .redes-sociales{
+	display: flex;
+	justify-content: space-around;
+	padding: 20px 10px;
 
-.nav-footer ul {
-    padding-left: 6px;
 }
+.footer-col-1-2 img{
+	max-width: 100%;
+	width: 29px;
 
-.nav-footer ul li {
-    list-style: none;
 }
-
-.footer-col-2 {
-    display: inline-block;
-    width: 33%;
-    float: left;
+.footer-col-3{
+	display: inline-block;
+	width: 33%;
+    float:right;
 }
-
-.footer-col-3 {
-    display: inline-block;
-    width: 33%;
-    float: right;
-}
-
-footer i {
+i {
     float: left;
     margin-right: 8px;
 }
-
-hr {
-    width: 100%;
+hr{
+	width: 100%;
 }
-
 .copy {
-    width: 100%;
+	width: 100%;
     display: flex;
     justify-content: space-around;
 }
-
 
 /*-----------------------RESPONSIVE PARA MOVILES---------------------------*/
 
@@ -435,7 +428,6 @@ hr {
         padding-top: 3%;
         padding-bottom: 2%;
     }
-    .btn-secs {}
     footer {
         padding-top: 15px;
     }
@@ -443,13 +435,9 @@ hr {
         padding: 5%;
         padding-top: 0;
     }
-    .footer-col-1 {
-        width: 50%;
-    }
-    .footer-col-2 {
-        width: 50%;
-        float: right;
-    }
+    .footer-col-1-2{
+	    width: 100%;
+	}
     .footer-col-3 {
         width: 100%;
         float: left;
