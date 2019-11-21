@@ -59,18 +59,8 @@ a:hover {
     max-width: 38%;
     transition: all 1s ease;
 }
-.logo-movil-off{
-    display: none;
-    margin:0;
-    color:#5ac2ff;
-}
 .logo-movil-on{
-    display: block;
-    position:absolute;
-    top:15px;
-    left:43%;
-    font-weight:bold;
-    font-size: 1.2em;
+    display: none;
 }
 .barra {
     height: 8%;
@@ -338,7 +328,7 @@ footer {
 	width: 33%;
     float:right;
 }
-i {
+footer i {
     float: left;
     margin-right: 8px;
 }
@@ -354,6 +344,15 @@ hr{
 /*-----------------------RESPONSIVE PARA MOVILES---------------------------*/
 
 @media screen and (max-width: 600px) {
+    .logo-movil-on{
+        display: block;
+        position:absolute;
+        top:15px;
+        font-weight:bold;
+        font-size: 1.2em;
+        margin:0 calc(50% - 37.345px);
+        color:#5ac2ff;
+    }
     .lista-sm {
         display: none;
     }
@@ -442,11 +441,13 @@ hr{
         width: 100%;
         float: left;
     }
-    .copy {
-        font-size: 0.9em;
-    }
     hr {
         margin-top: 10px;
         border-top: 0.7px solid #eee;
     }
+    .copy {
+        font-size: 1em;
+        display: block;
+    }
+
 }
