@@ -121,7 +121,10 @@ a:hover {
 
 
 /* HEADER */
-
+.encabezado-seccion{
+	font-weight: 300;
+	text-align: center;
+}
 .contenido-header {
     background-image: url(../images/header.jpg);
     background-position: center center;
@@ -341,16 +344,16 @@ hr{
     justify-content: space-around;
 }
 
-/*-----------------------RESPONSIVE PARA MOVILES---------------------------*/
 
-@media screen and (max-width: 600px) {
+/*-----------------------RESPONSIVE---------------------------*/
+@media screen and (max-width: 990px) {
     .logo-movil-on{
         display: block;
         position:absolute;
         top:15px;
         font-weight:bold;
         font-size: 1.2em;
-        margin:0 calc(50% - 37.345px);
+        margin:0 calc(50% - 38.405px);
         color:#5ac2ff;
     }
     .lista-sm {
@@ -377,11 +380,6 @@ hr{
     }
     .contenido-header {
         background-image: url(../images/header-mobile.jpg);
-        background-position: center center;
-        background-size: cover;
-        height: 100vh;
-        min-height: 40rem;
-        background-repeat: no-repeat;
     }
     .contenido-header .more,
     .more:after {

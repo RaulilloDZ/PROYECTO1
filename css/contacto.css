@@ -1,0 +1,75 @@
+body{
+	font-size: 1.6rem;
+	line-height: 2;
+    background-color: white;
+    color: black;
+}
+
+.contenido-header {
+    background-image: url(../images/header-contacto.jpg);
+    height: 60vh;
+}
+.contenedor{
+	max-width: 120rem;
+	margin:0 auto;
+}
+.seccion{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+.contenido-centrado{
+	max-width: 80rem;
+}
+.contacto p{
+	font-size: 1.4rem;
+	color:#4f4f4f;
+	margin:2rem 0 0 0;
+}
+legend{
+	font-size: 2rem;
+	color:#4f4f4f;
+}
+label{
+	font-weight: 700;
+	text-transform: uppercase;
+	display: block;
+}
+input:not([type="submit"]),
+textarea,
+select{
+	padding: 1rem;
+	display: block;
+	width: 100%;
+	background-color: #e1e1e1;
+	margin-bottom: 2rem;
+	border:none;border-radius: 1rem;
+}
+input[type="radio"]{
+	width: auto;
+	margin:0;
+}
+select{
+	appereance:none;
+	-webkit-appereance:none;
+}
+textarea{
+	height: 20rem;
+}
+.forma-contacto{
+	max-width: 30rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.btn{
+    display: inline-block;
+}
+footer{
+    background-color: #313131;
+    color: white;
+}
+@media screen and (max-width: 990px) {
+	.contenido-header .contacto{
+		
+	}
+}

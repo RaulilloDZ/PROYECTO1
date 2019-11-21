@@ -20,6 +20,7 @@
     <link href="https://fonts.googleapis.com/css?family=Ropa+Sans&display=swap" rel="stylesheet">
     <!-- Nuestros estilos -->
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/contacto.css">
     <!--Firebase Hosting-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -31,7 +32,7 @@
     <header>
         <nav id="navbar" class="barra">
             <a href="index.html"><img id="logo" class="logo logo-scroll" src="images/favicon.png"></a>
-            <p class="logo-movil-on">EPIT.CO</p>
+            <p class="logo-movil-on">EPIT CO</p>
             <div class="myicono">
                 <i class="fa fa-bars" aria-hidden="true"></i></div>
             <ul class="lista-sm">
@@ -44,7 +45,53 @@
             </ul>
         </nav>
     </header>
-    <main id="main">
+    <main>
+        <div class="contenido-header contacto"></div>
+        <h1 class="encabezado-seccion">Contacto</h1>
+    	<div class="contenedor seccion contenido-centrado">
+    		<h2 class="encabezado-seccion">Rellena el formulario de contacto</h2>
+
+        	<form class="contacto" action="">
+        		<fieldset>
+        			<legend>Informacion personal</legend>
+
+        			<label for="nombre">* Nombre:</label>
+        			<input type="text" id="nombre" required>
+
+        			<label for="email">* Email:</label>
+        			<input type="email" id="email" required>
+
+        			<label for="telefono">* Telefono:</label>
+        			<input type="tel"id="telefono" required pattern="[0-9]{9}">
+
+        			<label for="mensaje">Mensaje:</label>
+        			<textarea id="mensaje"></textarea>
+
+        		</fieldset>
+
+        		<fieldset>
+        			<legend>Contacto</legend>
+        			<p>Como desea ser contactado:</p>
+        			<div class="forma-contacto">
+        				<label for="telefono">Teléfono</label>
+        				<input type="radio" name="contacto" value="telefono" id="telefono">
+        				<label for="correo">E-mail</label>
+        				<input type="radio" name="contacto" value="correo" id="correo">
+        			</div>
+
+        			<p>Si eligió teléfono, elija la fecha y hora</p>
+        			<label for="fecha">Fecha:</label>
+        			<input type="date" id="fecha">
+        			<label for="hora">Hora</label>
+        			<input type="time" id="hora" min="9:00" max="18:00">
+
+        		</fieldset>
+
+        		<input type="submit" value="Enviar" class="btn btn-info btn-lg">
+                <p>Los campos marcados con * son de cumplimentación obligatoria.</p>
+        	</form>
+
+        </div>
 
     </main>
     <footer>
