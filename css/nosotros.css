@@ -1,0 +1,34 @@
+body {
+    font-size: 1.6rem;
+    line-height: 2;
+    background-color: white;
+    color: black;
+}
+
+.contenido-header {
+    background-image: url(../images/header-.jpg);
+    height: 60vh;
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.seccion {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contenido-centrado {
+    max-width: 80rem;
+}
+
+footer {
+    background-color: #313131;
+    color: white;
+}
+
+@media screen and (max-width: 990px) {
+    .contenido-header {}
+}
