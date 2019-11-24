@@ -23,6 +23,11 @@ h6 {
 .contenido-header-sv {
     background-image: url(../images/header-servicios.jpg);
     height: 40vh;
+    background-position-x: center;
+}
+
+.header-mobile {
+    display: none;
 }
 
 
@@ -98,5 +103,46 @@ footer {
 }
 
 @media screen and (max-width: 990px) {
-    .contenido-header {}
+    .contenido-header-sv {
+        display: none;
+    }
+    .header-mobile {
+        display: block;
+        padding-top: 9vh;
+        width: 100%;
+        height: 100%;
+    }
+    .contenedor {
+        margin: auto;
+        width: 90%;
+    }
+    .cards-sv {
+        margin: auto;
+    }
+    .sv-cols {
+        display: block;
+        margin: auto;
+    }
+    .card {
+        margin: auto;
+    }
+    .otros-sv {
+        margin: auto;
+    }
+    .otros-svs1 {
+        margin: 2%;
+        text-align: start;
+        display: block;
+        justify-content: space-around;
+    }
+    .otros-svs1 img {
+        margin: 2% 0 4% 0;
+        width: 100%;
+    }
+    .otros-svs2 {
+        margin: 2%;
+        text-align: center;
+        display: block;
+        padding-bottom: 5%;
+    }
 }

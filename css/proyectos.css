@@ -23,6 +23,11 @@ h6 {
 .contenido-header-sv {
     background-image: url(../images/header-proyectos.jpg);
     height: 40vh;
+    background-position-x: center;
+}
+
+.header-mobile {
+    display: none;
 }
 
 
@@ -48,5 +53,17 @@ footer {
 }
 
 @media screen and (max-width: 990px) {
-    .contenido-header {}
+    .contenido-header-sv {
+        display: none;
+    }
+    .header-mobile {
+        display: block;
+        padding-top: 9vh;
+        width: 100%;
+        height: 100%;
+    }
+    .contenedor {
+        margin: auto;
+        width: 90%;
+    }
 }
