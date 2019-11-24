@@ -13,8 +13,15 @@ h5 {
     font-weight: 600;
 }
 
+h6 {
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 100%;
+    color: #5ac2ff;
+    font-weight: 600;
+}
+
 .contenido-header-ns {
-    background-image: url(../images/header-nosotros.jpg);
+    background-image: url(../images/header-servicios.jpg);
     height: 40vh;
 }
 
@@ -39,20 +46,15 @@ h5 {
 
 /* COLUMNAS */
 
-.ns-cols {
+.sv-cols {
     display: flex;
-    margin: 4% 5%;
+    margin: 4% auto 5% auto;
+    text-align: center;
 }
 
-.ns-col-1 {
+.sv-col {
     display: inline-block;
     width: 30%;
-}
-
-.ns-col-2 {
-    display: inline-block;
-    width: 70%;
-    margin-left: 5%;
 }
 
 .ns-valores {

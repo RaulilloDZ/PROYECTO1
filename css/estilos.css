@@ -50,18 +50,19 @@ a:hover {
 
 .logo {
     margin-left: 15%;
-    max-width: 55%;
+    width: 40%;
     box-sizing: content-box;
 }
 
-.logo-scroll {
-    margin-left: 15%;
-    max-width: 38%;
-    transition: all 1s ease;
+.lg-scroll {
+    width: 30%;
+    transition: all 0.3s ease;
 }
-.logo-movil-on{
+
+.logo-movil-on {
     display: none;
 }
+
 .barra {
     height: 8%;
     /*Le he dado un pelín de grosor al nav para darle más presencia y reducirlo cuando scroll*/
@@ -121,10 +122,12 @@ a:hover {
 
 
 /* HEADER */
-.encabezado-seccion{
-	font-weight: 300;
-	text-align: center;
+
+.encabezado-seccion {
+    font-weight: 300;
+    text-align: center;
 }
+
 .contenido-header {
     background-image: url(../images/header.jpg);
     background-position: center center;
@@ -304,57 +307,62 @@ footer {
     padding-top: 20px;
 }
 
-.footer{
-	padding:2%;
-	padding-top: 0;
+.footer {
+    padding: 2%;
+    padding-top: 0;
 }
+
 .footer-col-1-2 {
-	display: inline-block;
+    display: inline-block;
     width: 66%;
-    float:left;
+    float: left;
     text-align: center;
+}
 
+.footer-col-1-2 .redes-sociales {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 10px;
 }
-.footer-col-1-2 .redes-sociales{
-	display: flex;
-	justify-content: space-around;
-	padding: 20px 10px;
 
+.footer-col-1-2 img {
+    max-width: 100%;
+    width: 29px;
 }
-.footer-col-1-2 img{
-	max-width: 100%;
-	width: 29px;
 
+.footer-col-3 {
+    display: inline-block;
+    width: 33%;
+    float: right;
 }
-.footer-col-3{
-	display: inline-block;
-	width: 33%;
-    float:right;
-}
+
 footer i {
     float: left;
     margin-right: 8px;
 }
-hr{
-	width: 100%;
+
+hr {
+    width: 100%;
 }
+
 .copy {
-	width: 100%;
+    width: 100%;
     display: flex;
     justify-content: space-around;
 }
 
 
 /*-----------------------RESPONSIVE---------------------------*/
+
 @media screen and (max-width: 990px) {
-    .logo-movil-on{
+    .logo-movil-on {
         display: block;
-        position:absolute;
-        top:15px;
-        font-weight:bold;
+        position: absolute;
+        top: 15px;
+        font-weight: bold;
         font-size: 1.2em;
-        margin:0 calc(50% - 38.405px);
-        color:#5ac2ff;
+        margin: 0 calc(50% - 38.405px);
+        color: #5ac2ff;
     }
     .lista-sm {
         display: none;
@@ -432,9 +440,9 @@ hr{
         padding: 5%;
         padding-top: 0;
     }
-    .footer-col-1-2{
-	    width: 100%;
-	}
+    .footer-col-1-2 {
+        width: 100%;
+    }
     .footer-col-3 {
         width: 100%;
         float: left;
@@ -447,5 +455,4 @@ hr{
         font-size: 1em;
         display: block;
     }
-
 }

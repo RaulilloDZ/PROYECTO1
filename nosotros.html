@@ -31,7 +31,7 @@
 <body>
     <header>
         <nav id="navbar" class="barra">
-            <a href="index.html"><img id="logo" class="logo logo-scroll" src="images/favicon.png"></a>
+            <a href="index.html"><img id="logo" class="logo" src="images/favicon.png"></a>
             <p class="logo-movil-on">EPIT CO</p>
             <div class="myicono">
                 <i class="fa fa-bars" aria-hidden="true"></i></div>
@@ -46,9 +46,23 @@
         </nav>
     </header>
     <main>
-        <div class="contenido-header"></div>
-        <h1 class="encabezado-seccion">Nosotros</h1>
+        <div class="contenido-header-ns"></div>
         <div class="contenedor seccion contenido-centrado">
+            <h5>NUESTRA HISTORIA</h5>
+            <h3>Formacion integral e integrada</h3>
+            <div class="ns-cols">
+                <div class="ns-col-1">
+                    <img src="images/main-nosotros.jpg" alt="nosotros">
+                </div>
+                <div class="ns-col-2">
+                    <p>EPIT nace con dos grandes objetivos el primero es dar cabida y seguir con el proceso de formación a una gran cantidad de estudiantes y recién titulados en el mundo de la ingeniería, la arquitectura y la informática, para asi ser capaces
+                        de cumplir nuestro segundo objetivo que no es otro que dar a nuestros clientes soluciones integrales referidas a las ramas de formación de nuestro equipo. su confianza en nosotros</p>
+                </div>
+            </div>
+            <h3>Nuestras condiciones</h3>
+
+            <img class="ns-valores" src="images/card3.png" alt="">
+
 
 
         </div>
@@ -96,11 +110,11 @@
         $(window).scroll(function() {
             if ($("#navbar").offset().top > 10 && screen.width > 600) {
                 $("#navbar").addClass("barra-scroll");
-                $("#logo").addClass("logo-scroll");
+                $("#logo").addClass("lg-scroll");
 
             } else {
                 $("#navbar").removeClass("barra-scroll");
-                $("#logo").removeClass("logo-scroll");
+                $("#logo").removeClass("lg-scroll");
 
             }
         });
