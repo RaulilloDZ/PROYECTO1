@@ -14,6 +14,8 @@
     <!-- Bootstrap -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://use.fontawesome.com/78a03bac99.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <!-- Tipografia -->
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
@@ -22,9 +24,7 @@
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/servicios.css">
 
-    <!--Firebase Hosting-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
 
 
 </head>
@@ -33,7 +33,9 @@
     <header>
         <nav id="navbar" class="barra">
             <a href="index.html"><img id="logo" class="logo" src="images/favicon.png"></a>
-            <p class="logo-movil-on">EPIT CO</p>
+            <a href="index.html">
+                <p class="logo-movil-on no-selectable">EPIT CO</p>
+            </a>
             <div class="myicono">
                 <i class="fa fa-bars" aria-hidden="true"></i></div>
             <ul class="lista-sm">
@@ -48,103 +50,119 @@
     </header>
 
     <main>
-        <div class="contenido-header-ns"></div>
-        <div class="contenedor seccion contenido-centrado">
+        <div class="contenido-header-sv"></div>
+        <div class="contenedor seccion">
             <h5>NUESTRA OFERTA</h5>
             <h3>Soluciones de calidad</h3>
             <p>Todos los servicios en el marco más multidisciplinar de la ingeniería y la arquitectura</p>
 
-            <div class="sv-cols">
+            <div class="cards-sv">
 
-                <div class="sv-col">
-                    <div class="card" style="width: 23rem;">
-                        <img src="images/servicios/card2.jpg" class="card-img-top" alt="">
-                        <div class="card-body">
-                            <br>
-                            <h6>DISEÑO GRÁFICO Y DESARROLLO WEB</h6>
-                            <p class="card-text">Nos encargamos de la <b>identidad corporativa</b> de tu empresa. Cubrimos todas las necesidades tanto de identidad visual, diseño y <b> desarrollo web</b> únicos y adaptables, cartelería y productos, desarrollo de plataformas
-                                de gestión de usuarios, etc.
-                            </p>
+                <div class="sv-cols">
+
+                    <div class="sv-col">
+                        <div class="card" style="width: 28rem;">
+                            <img src="images/servicios/card2.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h6>DISEÑO GRÁFICO Y DESARROLLO WEB</h6>
+                                <p class="card-text">Nos encargamos de la <b>identidad corporativa</b> de tu empresa. Cubrimos todas las necesidades tanto de identidad visual, diseño y <b> desarrollo web</b> únicos y adaptables, cartelería y productos, desarrollo de plataformas
+                                    de gestión de usuarios, etc.
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="sv-col">
-                    <div class="card" style="width: 17rem;">
-                        <img src="images/servicios/card5.jpg" class="card-img-top" alt="">
-                        <div class="card-body">
-                            <br>
-                            <h6>DISEÑO E IMPRESIÓN 3D</h6>
-                            <p class="card-text">Servicio de soluciones a medida, ya sea para empresas, profesionales o particulares. Abarcando desde el diseño de una pequeña pieza completamente personalizada hasta el prototipado rápido de productos.</p>
+                    <div class="sv-col">
+                        <div class="card" style="width: 28rem;">
+                            <img src="images/servicios/card5.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h6>DISEÑO, IMPRESIÓN Y ESCANEADO 3D</h6>
+                                <p class="card-text">Servicio de soluciones a medida, ya sea para empresas, profesionales o particulares. Abarcando desde el diseño de una pequeña pieza completamente personalizada hasta el prototipado rápido de productos.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-
-
-
-                <div class="sv-col">
-                    <div class="card" style="width: 20rem;">
-                        <img src="images/servicios/card3.jpg" class="card-img-top" alt="">
-                        <div class="card-body">
-                            <br>
-                            <h6>CONSULTORÍA ESTRATÉGICA</h6>
-                            <p class="card-text">Nuestra labor consultora va mucho más allá de un simple asesoramiento, trabajamos mano a mano con el cliente para alcanzar los objetivos. Aportamos gran valor a nuestros clientes, con un amplio abanico de servicios de los que
-                                obtendrá una alta rentabilidad.</p>
+                    <div class="sv-col">
+                        <div class="card" style="width: 28rem;">
+                            <img src="images/servicios/card3.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h6>CONSULTORÍA ESTRATÉGICA</h6>
+                                <p class="card-text">Nuestra labor consultora va mucho más allá de un simple asesoramiento, trabajamos mano a mano con el cliente para alcanzar los objetivos. Aportamos gran valor a nuestros clientes, con un amplio abanico de servicios de los
+                                    que obtendrá una alta rentabilidad.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-            </div>
-
-
-
-            <div class="sv-cols">
-
-                <div class="sv-col">
-                    <div class="card" style="width: 20rem;">
-                        <img src="images/servicios/card1.jpg" class="card-img-top" alt="">
-                        <div class="card-body">
-                            <br>
-                            <h6>PROJECT MANAGEMENT</h6>
-                            <p class="card-text">Abarcamos la organización, el planeamiento, la motivación y el control de los recursos con la finalidad de alcanzar los objetivos propuestos para lograr el éxito en uno o varios proyectos dentro de las limitaciones establecidas.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="sv-col">
-                    <div class="card" style="width: 20rem;">
-                        <img src="images/servicios/card4.jpg" class="card-img-top" alt="">
-                        <div class="card-body">
-                            <br>
-                            <h6>INGENIERÍA DE PROYECTOS</h6>
-                            <p class="card-text">Realización de proyectos, direcciones de obra y coordinaciones de seguridad y salud, como la apertura de todo tipo de actividades, bien sean del sector comercial, pública concurrencia o industriales, registro industrial de
-                                todo tipo de actividad, realizacion de Instalaciones Eléctricas...
-                            </p>
-                        </div>
-                    </div>
                 </div>
 
 
 
-                <div class="sv-col">
-                    <div class="card" style="width: 20rem;">
-                        <img src="images/servicios/card6.jpg" class="card-img-top" alt="">
-                        <div class="card-body">
-                            <br>
-                            <h6>FORMACIÓN</h6>
-                            <p class="card-text">
-                                La formación continua viene a incrementar la capacidad de los ingenieros para resolver problemas e incrementar la competitividad de los agentes de la sociedad que cuenten con sus servicios profesionales. Esta Plataforma de FORMACION CONTINUA DE LA INGENIERIA
-                                amplía la oferta formativa y mejora los medios para el aprendizaje, gracias a las sinergias que surgen por la unión de todas las entidades que participan en este ambicioso proyecto. Proyecto que tiene como principal destinatario
-                                a nuestros colegiados, pero del que se beneficia toda la sociedad.
-                            </p>
+                <div class="sv-cols">
+
+                    <div class="sv-col">
+                        <div class="card" style="width: 28rem;">
+                            <img src="images/servicios/card1.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h6>PROJECT MANAGEMENT</h6>
+                                <p class="card-text">Abarcamos la organización, el planeamiento, la motivación y el control de los recursos con la finalidad de alcanzar los objetivos propuestos para lograr el éxito en uno o varios proyectos dentro de las limitaciones establecidas.</p>
+                            </div>
                         </div>
                     </div>
+
+                    <div class="sv-col">
+                        <div class="card" style="width: 28rem;">
+                            <img src="images/servicios/card6.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h6>FORMACIÓN</h6>
+                                <p class="card-text">
+                                    La formación continua incrementa la capacidad de los ingenieros para resolver problemas y mejorar la competitividad de sus servicios profesionales. Esta plataforma de formación mejora los medios para el aprendizaje, gracias a las sinérgias que surgen
+                                    la unión de todas las entidades que forman este proyecto.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sv-col">
+                        <div class="card" style="width: 28rem;">
+                            <img src="images/servicios/card4.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h6>INGENIERÍA DE PROYECTOS</h6>
+                                <p class="card-text">Realización de proyectos, direcciones de obra y coordinaciones de seguridad y salud, como la apertura de todo tipo de actividades, bien sean del sector comercial, pública concurrencia o industriales, registro industrial
+                                    de todo tipo de actividad, realizacion de Instalaciones Eléctricas...
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
                 </div>
             </div>
+            <br>
+            <hr>
 
+            <div class="otros-sv">
+                <h3>OTROS SERVICIOS</h3>
+                <p>Estrechamente relacionado con la subcontratación de servicios, pues supone la búsqueda de una fuente externa a la empresa que pueda prestar de manera eficiente determinados servicios, para que esta pueda disponer de más tiempo para centrarse
+                    en los aspectos claves de su negocio.</p>
+                <br>
+                <h6>#OUTSOURCING</h6>
+                <div class="otros-svs1">
+                    <img src="images/servicios/outsour.jpg" alt="">
+                    <p><b> Servicios especializados en cada sector industrial, entre los que destacamos:</b> <br> • Servicios comerciales a nivel directivo <br> • Direcciones de Obra <br> • Estudio y presentación de licitaciones públicas o privadas <br>                        • Servicios de Ingeniería externalizada para empresas <br> • Comunicación corporativa y Marketing en sector Agroalimentario <br> • Promoción de empresas y sus actividades y/o productos
+                    </p>
+                </div>
+                <br>
+                <h6>#ORGANIZACIÓN DE EVENTOS</h6>
+                <div class="otros-svs2">
+                    <p> <b>Organización de eventos y jornadas técnicas para su empresa:</b> <br> El fin es mejorar la visibilidad de su empresa mediante la comunicación de su Know How empresarial, su cultura organizativa y los productos o servicios que es
+                        capaz de ofrecer a sus clientes.Queremos proporcionar herramientas innovadoras en la gestión de la comunicación con su cliente en el sector agroindustrial, asesorándole técnicamente y enfocando adecuadamente su estrategia. Para
+                        ello contamos con especialistas en comunicación y marketing con una gran experiencia en el sector Agroalimentario, así como formadores del más alto nivel orientados siempre a sus necesidades.
 
-            <h3>OTROS SERVICIOS</h3>
+                    </p>
 
+                </div>
+            </div>
         </div>
 
 

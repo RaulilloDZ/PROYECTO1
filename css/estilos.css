@@ -15,6 +15,13 @@ body {
 
 /*GLOBALES*/
 
+.no-selectable {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 h1 {
     font-size: 3.8rem;
 }

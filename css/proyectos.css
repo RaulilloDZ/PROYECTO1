@@ -21,7 +21,7 @@ h6 {
 }
 
 .contenido-header-sv {
-    background-image: url(../images/header-servicios.jpg);
+    background-image: url(../images/header-proyectos.jpg);
     height: 40vh;
 }
 
@@ -37,56 +37,6 @@ h6 {
 .seccion {
     margin-top: 2rem;
     margin-bottom: 2rem;
-}
-
-
-/* --------------------COLUMNAS--------------------------*/
-
-.cards-sv {
-    max-width: 85%;
-    margin: auto;
-}
-
-.sv-cols {
-    display: flex;
-    justify-content: space-around;
-}
-
-.sv-col {
-    margin: 4% 1% 0 1%;
-}
-
-
-/*------------------- OTROS SERVICIOS--------------------*/
-
-.otros-sv {
-    margin: 4% 5%;
-}
-
-.otros-sv h6 {
-    font-size: 120%;
-}
-
-.otros-svs1 {
-    margin: 2%;
-    text-align: start;
-    display: flex;
-    justify-content: space-around;
-}
-
-.otros-svs1 img {
-    width: 40%;
-}
-
-.otros-svs2 {
-    margin: 2%;
-    text-align: start;
-    display: flex;
-    justify-content: space-around;
-}
-
-.otros-svs2 img {
-    width: 40%;
 }
 
 
