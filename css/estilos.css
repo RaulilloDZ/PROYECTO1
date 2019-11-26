@@ -7,9 +7,9 @@
 
 body {
     font-size: 1.6rem;
-    line-height: 1.5;
-    background-color: #313131;
-    color: white;
+    line-height: 1.8;
+    background-color: white;
+    color: black;
 }
 
 
@@ -133,14 +133,16 @@ a:hover {
     font-weight: 300;
     text-align: center;
 }
-
-.contenido-header {
-    background-image: url(../images/header.jpg);
+#contenido-header{
     background-position: center center;
     background-size: cover;
+    background-repeat: no-repeat;
+}
+.header-inicio {
+    background-image: url(../images/header.jpg);
     height: 100vh;
     min-height: 40rem;
-    background-repeat: no-repeat;
+
 }
 
 .more {
@@ -165,7 +167,7 @@ a:hover {
     z-index: 1;
 }
 
-.contenido-header .more:after {
+.header-inicio .more:after {
     background-image: url(../images/arrow.svg);
     background-position: center;
     background-repeat: no-repeat;
@@ -182,24 +184,23 @@ a:hover {
 
 
 /* -------------------------------------------- CONTENIDO MAIN  -------------------------------------- */
-
+/* CONOCENOS*/
+#nosotros, #equipo{
+    background-color: #313131;
+    color:white;
+}
+.contenido {
+    text-align: center;
+    padding: 2rem 1%    ;
+}
 .contenido h5 {
     padding-top: 5%;
+    margin-top: 0;
     font-family: 'Ropa Sans', sans-serif;
     font-size: 100%;
     color: #5ac2ff;
     font-weight: 600;
 }
-
-
-/* CONOCENOS*/
-
-.contenido {
-    text-align: center;
-    width: 90%;
-    margin: 0 auto;
-}
-
 .columnas {
     display: flex;
     justify-content: center;
@@ -224,7 +225,6 @@ a:hover {
     color: white;
     font-size: 1.2em;
     text-align: center;
-    width: 80%;
 }
 
 .contenido .columnas img {
@@ -234,10 +234,6 @@ a:hover {
 
 
 /* NUESTRA OFERTA*/
-
-#oferta {
-    background: #ffffff;
-}
 
 #oferta .contenido .columnas .col-1 {
     padding-bottom: 6%;
@@ -274,7 +270,7 @@ a:hover {
     font-size: 1.2em;
 }
 
-#equipo .contenido .col-2 img {
+.ns-valores {
     width: 70%;
     padding: 0;
 }
@@ -311,6 +307,8 @@ a:hover {
 
 footer {
     padding-top: 20px;
+    background-color: #313131;
+    color:white
 }
 
 .footer {
@@ -392,10 +390,10 @@ hr {
     .logo {
         display: none;
     }
-    .contenido-header {
+    .header-inicio {
         background-image: url(../images/header-mobile.jpg);
     }
-    .contenido-header .more,
+    .header-inicio .more,
     .more:after {
         display: block;
     }
