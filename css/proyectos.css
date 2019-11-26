@@ -24,6 +24,7 @@ h6 {
     background-image: url(../images/header-proyectos.jpg);
     height: 40vh;
     background-position-x: center;
+    background-repeat: no-repeat;
 }
 
 .header-mobile {
