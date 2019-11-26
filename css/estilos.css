@@ -47,11 +47,12 @@ a,
 a:hover {
     text-decoration: none;
 }
-
 .center {
-    text-align: center;
+    text-align: center!important;
 }
-
+.txt-osc {
+    color: #313131!important;
+}
 
 /* NAVBAR */
 
@@ -191,7 +192,7 @@ a:hover {
 }
 .contenido {
     text-align: center;
-    padding: 2rem 1%    ;
+    padding: 2rem 1%;
 }
 .contenido h5 {
     padding-top: 5%;
@@ -201,57 +202,40 @@ a:hover {
     color: #5ac2ff;
     font-weight: 600;
 }
-.columnas {
-    display: flex;
-    justify-content: center;
-}
-
-.contenido .columnas .col-1 {
-    padding-top: 1%;
-}
-
 .contenido h3 {
     color: #e4e4e4;
-    margin-bottom: 25px%;
+    margin-bottom: 25px;
     text-align: center;
     font-size: 200%;
 }
-
-.contenido .txt-osc {
-    color: #313131;
+.columnas {
+    display: flex;
 }
-
-.contenido .columnas p {
+.columnas p {
     color: white;
     font-size: 1.2em;
     text-align: center;
 }
-
-.contenido .columnas img {
-    width: 80%;
-    padding-bottom: 10%;
+.col-2{
+    display:flex;
+    align-items: center;
 }
-
+.quitada{
+    display:none;
+}
+.btn{
+    background-color:#5ac2ff!important;
+}
 
 /* NUESTRA OFERTA*/
-
-#oferta .contenido .columnas .col-1 {
-    padding-bottom: 6%;
-}
-
 #oferta .contenido .columnas p {
-    color: #313131;
-    margin-bottom: 10%;
-    text-align: left;
+    color: black;
 }
-
 
 /* NUESTRO EQUIPO*/
-
 #equipo {
     padding-bottom: 26px;
 }
-
 #equipo .contenido h4 {
     margin: 0;
     color: #cacaca;
@@ -260,51 +244,27 @@ a:hover {
     padding-top: 3%;
     padding-bottom: 1%;
 }
-
-#equipo .contenido p {
+#equipo .contenido p, #clientes .contenido p  {
     color: #777777;
-    padding-bottom: 5%;
+    padding-top: 1%;
+    padding-bottom: 3%;
     width: 80%;
     text-align: center;
     margin: auto;
     font-size: 1.2em;
 }
-
 .ns-valores {
-    width: 70%;
+    width: 60%;
     padding: 0;
 }
-
 
 /* NUESTROS CLIENTES*/
-
-#clientes {
-    background: #ffffff;
-    margin: auto;
-}
-
-#clientes .contenido {
-    margin-bottom: 0;
-}
-
-#clientes .contenido p {
-    color: #777777;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    width: 80%;
-    text-align: center;
-    margin: auto;
-    font-weight: 600;
-}
-
-#clientes .contenido img {
+.img-clientes {
     width: 75%;
-    padding: 0;
 }
 
 
 /* -------------------------FOOTER -------------------------------- */
-
 footer {
     padding-top: 20px;
     background-color: #313131;
@@ -397,45 +357,37 @@ hr {
     .more:after {
         display: block;
     }
+    .contenido {
+        width: 90%;
+        margin:auto;
+        padding: 2rem 0;
+    }
     .contenido h5 {
         padding-top: 8%;
-        font-family: 'Ropa Sans', sans-serif;
-        font-size: 100%;
-        color: #5ac2ff;
-    }
-    .contenido {
-        text-align: center;
-        width: 100%;
-        margin: auto;
     }
     .columnas {
         display: block;
-        width: 100%;
-        justify-content: center;
-        padding-left: 17%;
     }
-    .contenido .columnas .col-1 {
-        width: 100%;
+    .quitada{
+        display: block;
+        padding-bottom: 15px;
+    }
+    .quitar{
+        display: none;
+    }
+    .col-1 {
         padding-top: 3%;
-        text-align: center;
         padding-bottom: 4%;
-    }
-    .contenido .columnas .col-2 {
-        margin: 0;
-        width: 100%;
     }
     .contenido .columnas img {
         display: block;
     }
-    .seccionC .contenido .mobile100 img {
-        width: 100%;
-        padding-top: 3%;
-        padding-bottom: 2%;
+    .ns-valores{
+        width:100%;
+        padding-bottom: 10px;
     }
-    .seccionD .contenido img {
-        width: 100%;
-        padding-top: 3%;
-        padding-bottom: 2%;
+    .img-clientes{
+        width: 120%;
     }
     footer {
         padding-top: 15px;
