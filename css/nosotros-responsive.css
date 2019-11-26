@@ -1,0 +1,30 @@
+@media screen and (max-width: 990px) {
+    .header-ns {
+        background-image: url(../images/header-nosotros.jpg);
+        height: 30vh;
+    }
+    /* COLUMNAS */
+    .col-2{
+        width: 80%;
+        margin:auto;
+    }
+    .ns-cols {
+        display: block;
+    }
+    .ns-col-img {
+        width: 100%;
+    }
+    .ns-col-img img {
+        width: 100%;
+        margin: 2% 0 8% 0;
+    }
+    .ns-col-p {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+    .ns-valores {
+        margin: auto;
+        width: 100%;
+    }
+}

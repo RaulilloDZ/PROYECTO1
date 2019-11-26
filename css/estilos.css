@@ -134,7 +134,7 @@ a:hover {
     font-weight: 300;
     text-align: center;
 }
-#contenido-header{
+.contenido-header{
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -185,7 +185,7 @@ a:hover {
 
 
 /* -------------------------------------------- CONTENIDO MAIN  -------------------------------------- */
-/* CONOCENOS*/
+/* NOSOTROS */
 #nosotros, #equipo{
     background-color: #313131;
     color:white;
@@ -225,6 +225,26 @@ a:hover {
 }
 .btn{
     background-color:#5ac2ff!important;
+}.header-ns {
+    background-image: url(../images/header-nosotros.jpg);
+    height: 40vh;
+}
+.ns-col-img{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    margin-right: 4%;
+}
+.ns-col-p {
+    display: inline-block;
+    width: 60%;
+}
+.ns-col-p p{
+    text-align: justify;
+}
+.ns-valores{
+    width: 70%;
+    margin:auto;
 }
 
 /* NUESTRA OFERTA*/
