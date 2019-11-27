@@ -30,15 +30,30 @@ h2 {
     font-size: 3.4rem;
     color: white;
 }
-
 h3 {
-    font-size: 2.5rem;
+    color: #e4e4e4;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 200%;
 }
 
 h4 {
     font-size: 2rem;
 }
-
+h5 {
+    padding-top: 5%;
+    margin-top: 0;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 100%;
+    color: #5ac2ff;
+    font-weight: 600;
+}
+h6 {
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 100%;
+    color: #5ac2ff;
+    font-weight: 600;
+}
 img {
     max-width: 100%;
 }
@@ -194,20 +209,6 @@ a:hover {
     text-align: center;
     padding: 2rem 1%;
 }
-.contenido h5 {
-    padding-top: 5%;
-    margin-top: 0;
-    font-family: 'Ropa Sans', sans-serif;
-    font-size: 100%;
-    color: #5ac2ff;
-    font-weight: 600;
-}
-.contenido h3 {
-    color: #e4e4e4;
-    margin-bottom: 25px;
-    text-align: center;
-    font-size: 200%;
-}
 .columnas {
     display: flex;
 }
@@ -226,7 +227,8 @@ a:hover {
 }
 .btn{
     background-color:#5ac2ff!important;
-}.header-ns {
+}
+.header-ns {
     background-image: url(../images/header-nosotros.jpg);
     height: 40vh;
 }
@@ -252,10 +254,49 @@ a:hover {
 #oferta .contenido .columnas p {
     color: black;
 }
-
-
-
-
+.header-sv {
+    background-image: url(../images/header-servicios.jpg);
+    height: 40vh;
+}
+.cards-sv {
+    max-width: 85%;
+    margin: auto;
+}
+.sv-row {
+    display: flex;
+    justify-content: space-around;
+}
+.sv-col {
+    margin: 4% 1% 0 1%;
+}
+.sv-col a{
+    color:inherit;
+}
+.card-sv{
+    width: 28rem;
+    height:49.6rem;
+}
+.otros-sv {
+    margin: 4%;
+}
+.otros-sv h6 {
+    font-size: 120%;
+}
+.otros-svs1 {
+    margin: 2%;
+    text-align: start;
+    display: flex;
+    justify-content: space-around;
+}
+.otros-svs1 img {
+    width: 40%;
+}
+.otros-svs2 {
+    margin: 2%;
+    text-align: start;
+    display: flex;
+    justify-content: space-around;
+}
 /* NUESTRO EQUIPO*/
 #equipo {
     padding-bottom: 26px;

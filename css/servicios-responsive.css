@@ -1,0 +1,31 @@
+@media screen and (max-width: 990px) {
+    .header-sv {
+        height: 30vh;
+    }
+    .sv-row {
+        display: block;
+        margin: auto;
+    }
+    .card {
+        margin: auto;
+    }
+    .otros-sv {
+        margin: auto;
+    }
+    .otros-svs1 {
+        margin: 2%;
+        text-align: start;
+        display: block;
+        justify-content: space-around;
+    }
+    .otros-svs1 img {
+        margin: 2% 0 4% 0;
+        width: 100%;
+    }
+    .otros-svs2 {
+        margin: 2%;
+        text-align: center;
+        display: block;
+        padding-bottom: 3%;
+    }
+}
