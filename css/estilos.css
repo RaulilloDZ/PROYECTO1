@@ -95,7 +95,6 @@ a:hover {
     width: 100%;
     align-items: center;
     z-index: 100;
-    overflow: hidden;
 }
 
 .barra-scroll {
@@ -141,7 +140,30 @@ a:hover {
 .lista-sm {
     display: block;
 }
+.dropdown-menu{
+	background-color: #313131;
+	color:white;
+	top:8vh;
+    width:300%;
+	display: flex;
+	justify-content: space-around;
+}
+.dropdown-item{
+	display: block!important;
+	width:100%;
+	margin-right: 10px;
 
+}
+a.dropdown-item {
+	padding:10px!important;
+    text-align: left!important;
+}
+a.pre-figura{
+	padding-right: 5px!important;
+}
+a.figura{
+	padding-left: 0!important;
+}
 
 /* HEADER */
 
