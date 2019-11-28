@@ -5,12 +5,12 @@ $(document).ready(function() {
 
         $('#navbar ul').toggleClass('lista-sm');
 
-    })
+    });
 
     function configurarInicio() {
         var urlPath = window.location.pathname;
         //console.log(urlPath);
-        $('nav a').each(function() {
+        $('nav ul li.firstChild').each(function() {
             var href = $(this).attr('href');
             //console.log(href);
             var indice = urlPath.length - href.length;
@@ -19,6 +19,6 @@ $(document).ready(function() {
                 //console.log('match');
                 $(this).closest('lista-sm a').addClass('active');
             }
-        })
+        });
     }
-})
+});

@@ -429,7 +429,6 @@ hr {
     #navbar li a {
         padding: 0 0 10px 15px;
         text-align: left;
-        width: 100%;
     }
     .myicono {
         display: block;
@@ -437,6 +436,21 @@ hr {
     .logo {
         display: none;
     }
+    .dropdown{
+        display: flex!important;
+        text-align: center;
+    }
+    .prefigura, .figura{
+        width:37.5%!important;
+    }
+    .dropdown-menu{
+        width: auto;
+    }
+    .dropdown-item{
+        margin-right: 0;
+    }
+
+
     .header-inicio {
         background-image: url(../images/header-mobile.jpg);
     }
