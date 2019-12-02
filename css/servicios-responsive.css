@@ -1,7 +1,4 @@
 @media screen and (max-width: 990px) {
-    .header-sv {
-        height: 30vh;
-    }
     .sv-row {
         display: block;
         margin: auto;

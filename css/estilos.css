@@ -10,6 +10,7 @@ body {
     line-height: 1.8;
     background-color: white;
     color: black;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 
@@ -127,6 +128,7 @@ a:hover {
 
 #navbar li a:hover {
     color: #5ac2ff;
+    background-color: inherit;
 }
 
 .myicono {
@@ -319,6 +321,8 @@ a.figura{
     display: flex;
     justify-content: space-around;
 }
+
+
 /* NUESTRO EQUIPO*/
 #equipo {
     padding-bottom: 26px;
@@ -344,10 +348,20 @@ a.figura{
     width: 60%;
     padding: 0;
 }
-
+/*        PESTAÑAS PRINCIPALES         */
 /* NUESTROS CLIENTES*/
 .img-clientes {
     width: 75%;
+}
+/* PROYECTOS */
+.header-pr {
+    background-image: url(../images/header-proyectos.jpg);
+    height: 40vh;
+}
+/* ACTUALIDAD */
+.header-act {
+    background-image: url(../images/header-actualidad.jpg);
+    height: 40vh;
 }
 
 
@@ -450,7 +464,9 @@ hr {
         margin-right: 0;
     }
 
-
+    .contenido-header{
+        height: 30vh;
+    }
     .header-inicio {
         background-image: url(../images/header-mobile.jpg);
     }

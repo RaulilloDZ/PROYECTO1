@@ -77,6 +77,8 @@ textarea {
 .btn {
     display: inline-block;
 }
+.submit{left: calc(50% - 50px); position: relative;}
 @media screen and (max-width: 990px) {
-    .contenido-header .contacto {}
+    .contenido-header {height: 40vh;}
+    form{margin: 0 15px;}
 }
