@@ -10,7 +10,7 @@ body {
     line-height: 1.8;
     background-color: white;
     color: black;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 
@@ -31,6 +31,7 @@ h2 {
     font-size: 3.4rem;
     color: white;
 }
+
 h3 {
     color: #e4e4e4;
     margin-bottom: 25px;
@@ -41,6 +42,7 @@ h3 {
 h4 {
     font-size: 2rem;
 }
+
 h5 {
     padding-top: 5%;
     margin-top: 0;
@@ -49,12 +51,14 @@ h5 {
     color: #5ac2ff;
     font-weight: 600;
 }
+
 h6 {
     font-family: 'Ropa Sans', sans-serif;
     font-size: 100%;
     color: #5ac2ff;
     font-weight: 600;
 }
+
 img {
     max-width: 100%;
 }
@@ -63,12 +67,15 @@ a,
 a:hover {
     text-decoration: none;
 }
+
 .center {
     text-align: center!important;
 }
+
 .txt-osc {
     color: #313131!important;
 }
+
 
 /* NAVBAR */
 
@@ -142,30 +149,35 @@ a:hover {
 .lista-sm {
     display: block;
 }
-.dropdown-menu{
-	background-color: #1f1f1f;
-	color:white;
-	top:8vh;
-    width:300%;
-	display: flex;
-	justify-content: space-around;
-}
-.dropdown-item{
-	display: block!important;
-	width:100%;
-	margin-right: 10px;
 
+.dropdown-menu {
+    background-color: #1f1f1f;
+    color: white;
+    top: 8vh;
+    width: 300%;
+    display: flex;
+    justify-content: space-around;
 }
+
+.dropdown-item {
+    display: block!important;
+    width: 100%;
+    margin-right: 10px;
+}
+
 a.dropdown-item {
-	padding:10px!important;
+    padding: 10px!important;
     text-align: left!important;
 }
-a.pre-figura{
-	padding-right: 5px!important;
+
+a.pre-figura {
+    padding-right: 5px!important;
 }
-a.figura{
-	padding-left: 0!important;
+
+a.figura {
+    padding-left: 0!important;
 }
+
 
 /* HEADER */
 
@@ -173,16 +185,17 @@ a.figura{
     font-weight: 300;
     text-align: center;
 }
-.contenido-header{
+
+.contenido-header {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .header-inicio {
     background-image: url(../images/header.jpg);
     height: 100vh;
     min-height: 40rem;
-
 }
 
 .more {
@@ -224,97 +237,125 @@ a.figura{
 
 
 /* -------------------------------------------- CONTENIDO MAIN  -------------------------------------- */
+
+
 /* NOSOTROS */
-#nosotros, #equipo{
+
+#nosotros,
+#equipo {
     background-color: #313131;
-    color:white;
+    color: white;
 }
+
 .contenido {
     text-align: center;
     padding: 2rem 1%;
 }
+
 .columnas {
     display: flex;
 }
+
 .columnas p {
     color: white;
     font-size: 1.2em;
     text-align: center;
     padding: 0 10px;
 }
-.col-2{
-    display:flex;
+
+.col-2 {
+    display: flex;
     align-items: center;
 }
-.quitada{
-    display:none;
+
+.quitada {
+    display: none;
 }
-.btn{
-    background-color:#5ac2ff!important;
+
+.btn {
+    background-color: #5ac2ff!important;
 }
+
 .header-ns {
     background-image: url(../images/header-nosotros.jpg);
     height: 40vh;
 }
-.ns-col-img{
+
+.ns-col-img {
     display: flex;
     align-items: center;
     width: 40%;
     margin-right: 4%;
 }
+
 .ns-col-p {
     display: inline-block;
     width: 60%;
 }
-.ns-col-p p{
+
+.ns-col-p p {
     text-align: justify;
 }
-.ns-valores{
+
+.ns-valores {
     width: 70%;
-    margin:auto;
+    margin: auto;
 }
 
+
 /* SERVICIOS */
+
 #oferta .contenido .columnas p {
     color: black;
 }
+
 .header-sv {
     background-image: url(../images/header-servicios.jpg);
     height: 40vh;
 }
+
 .cards-sv {
     max-width: 85%;
     margin: auto;
 }
+
 .sv-row {
     display: flex;
     justify-content: space-around;
 }
+
 .sv-col {
     margin: 4% 1% 0 1%;
 }
-.sv-col a{
-    color:inherit;
+
+.sv-col a {
+    color: inherit;
 }
-.card-sv{
+
+.card-sv {
     width: 28rem;
-    height:44rem;
+    height: 44rem;
 }
+
 .otros-sv {
     margin: 4%;
 }
+
 .otros-sv h6 {
     font-size: 120%;
 }
+
 .otros-svs1 {
     margin: 2%;
     text-align: start;
     display: flex;
     justify-content: space-around;
 }
+
 .otros-svs1 img {
     width: 40%;
 }
+
 .otros-svs2 {
     margin: 2%;
     text-align: start;
@@ -324,9 +365,11 @@ a.figura{
 
 
 /* NUESTRO EQUIPO*/
+
 #equipo {
     padding-bottom: 26px;
 }
+
 #equipo .contenido h4 {
     margin: 0;
     color: #cacaca;
@@ -335,7 +378,9 @@ a.figura{
     padding-top: 3%;
     padding-bottom: 1%;
 }
-#equipo .contenido p, #clientes .contenido p  {
+
+#equipo .contenido p,
+#clientes .contenido p {
     color: #777777;
     padding-top: 1%;
     padding-bottom: 3%;
@@ -344,21 +389,55 @@ a.figura{
     margin: auto;
     font-size: 1.2em;
 }
+
 .ns-valores {
     width: 60%;
     padding: 0;
 }
+
+
 /*        PESTAÑAS PRINCIPALES         */
+
+
 /* NUESTROS CLIENTES*/
+
 .img-clientes {
     width: 75%;
 }
+
+
 /* PROYECTOS */
+
 .header-pr {
     background-image: url(../images/header-proyectos.jpg);
     height: 40vh;
 }
+
+.contenido-pr {
+    background-color: #313131;
+    color: white;
+    padding: 0 auto 2% auto;
+}
+
+.contenido-pr p {
+    text-align: justify;
+    width: 90%;
+    margin: auto;
+}
+
+.omansa {
+    display: flex;
+    margin: auto;
+    padding: 5% 0 3% 0;
+}
+
+.omansa img {
+    /*................*/
+}
+
+
 /* ACTUALIDAD */
+
 .header-act {
     background-image: url(../images/header-actualidad.jpg);
     height: 40vh;
@@ -366,10 +445,11 @@ a.figura{
 
 
 /* -------------------------FOOTER -------------------------------- */
+
 footer {
     padding-top: 20px;
     background-color: #313131;
-    color:white
+    color: white
 }
 
 .footer {
@@ -450,21 +530,21 @@ hr {
     .logo {
         display: none;
     }
-    .dropdown{
+    .dropdown {
         display: flex!important;
         text-align: center;
     }
-    .prefigura, .figura{
-        width:37.5%!important;
+    .prefigura,
+    .figura {
+        width: 37.5%!important;
     }
-    .dropdown-menu{
+    .dropdown-menu {
         width: auto;
     }
-    .dropdown-item{
+    .dropdown-item {
         margin-right: 0;
     }
-
-    .contenido-header{
+    .contenido-header {
         height: 30vh;
     }
     .header-inicio {
@@ -476,7 +556,7 @@ hr {
     }
     .contenido {
         width: 90%;
-        margin:auto;
+        margin: auto;
         padding: 2rem 0;
     }
     .contenido h5 {
@@ -485,11 +565,11 @@ hr {
     .columnas {
         display: block;
     }
-    .quitada{
+    .quitada {
         display: block;
         padding-bottom: 15px;
     }
-    .quitar{
+    .quitar {
         display: none;
     }
     .col-1 {
@@ -499,11 +579,11 @@ hr {
     .contenido .columnas img {
         display: block;
     }
-    .ns-valores{
-        width:100%;
+    .ns-valores {
+        width: 100%;
         padding-bottom: 10px;
     }
-    .img-clientes{
+    .img-clientes {
         width: 120%;
     }
     footer {
