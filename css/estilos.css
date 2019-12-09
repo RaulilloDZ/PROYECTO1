@@ -444,6 +444,40 @@ a.figura {
 }
 
 
+/*////////////////////////////  PAGINAS SERVICIOS  //////////////////////////////*/
+
+#contenedor-central {
+    width: 80%;
+    margin: 0 auto 5% auto;
+}
+
+#contenedor-central h3 {
+    padding: 2%;
+    color: #5ac2ff;
+}
+
+.columnas-sv {
+    display: flex;
+    margin: auto;
+}
+
+.columnas-sv img {
+    width: 50%;
+    margin: 0 2% 2% 2%;
+}
+
+.columnas-sv p {
+    margin: 2%;
+}
+
+.cols-ejemplos {
+    margin: 5% auto 10% auto;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2%;
+}
+
+
 /* -------------------------FOOTER -------------------------------- */
 
 footer {
