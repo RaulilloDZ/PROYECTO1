@@ -9,8 +9,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title> Proyectos | EPITCO</title>
-    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+    <title> Project Management| EPITCO</title>
+    <link rel="shortcut icon" href="../images/favicon.png" type="image/png">
     <!-- Bootstrap -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://use.fontawesome.com/78a03bac99.js"></script>
@@ -19,72 +19,80 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ropa+Sans&display=swap" rel="stylesheet">
     <!-- Nuestros estilos -->
-    <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" href="css/proyectos-responsive.css">
+    <link rel="stylesheet" href="../css/estilos.css">
     <!--Firebase Hosting-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
+    <!--CARDS W3-->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 </head>
 
 <body>
     <header>
         <nav id="navbar" class="barra">
-            <a href="index.html"><img id="logo" class="logo" src="images/favicon.png"></a>
-            <a href="index.html">
+            <a href="../index.html"><img id="logo" class="logo" src="../images/favicon.png"></a>
+            <a href="../index.html">
                 <p class="logo-movil-on no-selectable">EPIT CO</p>
             </a>
             <div class="myicono">
                 <i class="fa fa-bars" aria-hidden="true"></i></div>
             <ul class="lista-sm">
-                <li><a href="nosotros.html">NOSOTROS</a></li>
-                <li class="dropdown"><a href="servicios.html" class="pre-figura">SERVICIOS </a><a class="figura"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                <li><a href="../nosotros.html">NOSOTROS</a></li>
+                <li class="dropdown"><a href="../servicios.html" class="pre-figura">SERVICIOS </a><a class="figura"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
                     <div class="dropdown-menu" style="display:none;">
                         <div style="float:left; padding-right:10px;">
-                            <a class="dropdown-item" href="#">Diseño y desarrollo web</a>
-                            <a class="dropdown-item" href="#">Diseño, impresión y escaneado 3D</a>
-                            <a class="dropdown-item" href="#">Consultoria estratégica</a>
+                            <a class="dropdown-item" href="../servicios/diseño-grafico-y-desarrollo-web.html">Diseño y desarrollo web</a>
+                            <a class="dropdown-item" href="../servicios/diseño-impresion-escaneado-3d.html">Diseño, impresión y escaneado 3D</a>
+                            <a class="dropdown-item" href="../servicios/consultoria-estrategica.html">Consultoria estratégica</a>
                         </div>
                         <div style="float:right; margin-right: 10px;">
-                            <a class="dropdown-item" href="#">Project management</a>
-                            <a class="dropdown-item" href="#">Formación</a>
-                            <a class="dropdown-item" href="#">Ingeniería de proyectos</a>
+                            <a class="dropdown-item" href="../servicios/project-management.html">Project management</a>
+                            <a class="dropdown-item" href="../servicios/formacion.html">Formación</a>
+                            <a class="dropdown-item" href="../servicios/ingenieria-proyectos.html">Ingeniería de proyectos</a>
                         </div>
                     </div>
                 </li>
-                <li><a href="proyectos.html">PROYECTOS</a></li>
-                <li><a href="actualidad.html">ACTUALIDAD</a></li>
-                <li><a href="contacto.html">CONTACTO</a></li>
+                <li><a href="../proyectos.html">PROYECTOS</a></li>
+                <li><a href="../actualidad.html">ACTUALIDAD</a></li>
+                <li><a href="../contacto.html">CONTACTO</a></li>
             </ul>
         </nav>
-        <div class="contenido-header header-pr"></div>
     </header>
-    <main>
-        <div class="contenido-pr">
-            <h5 style="text-align: center;">NUESTROS TRABAJOS</h5>
-            <h3>Su confianza.</h3>
-            <p>En EPIT CO estamos orgullosos de haber trabajado con empresas punteras a nivel nacional, desde empresas de alimentación a empresas constructoras. En todos los proyectos nos hemos enfrentado a un problema que hemos solucionado de forma dedicada
-                y a medida tanto en el ámbito de diseño, desarrollo o asesoramiento, todo ello con el fin de conseguir que nuestros clientes desarrollen su actividad despreocupandose de temas ajenos a su sector.</p>
-        </div>
-        <!--ESTO ES UNA PRUEBA, SE M EOCURRE QUE PODRIAMOS HACER ALGO DE ESTE ESTILO EN HORIZONTAL TODO EL ANCHO FOTOS O UNA SOLA EDITADA CON PHOTOSHOP DE COSAS DE CADA PROYECTO Y ENCIMA EL NOMBRE DE LA EMPRESA, JUSTO DEBAJO UN PEQUEÑO TEXTO-->
-        <div class="omansa">
-            <img src="" alt="">
-            <p>Omansa es una de las empresas más conocidas a nivel regional en el sector de la construccion industrial y el mantenimiento integral. Con ellos realizamos una actualización del diseño y backend de su página web. Además finalizamos el proyecto
-                con una introducción del sistema en el panorama digital y de web marketing, tanto a nivel de SEO y posicionamiento web, como de optimización del sistema.</p>
-        </div>
+    <main style="padding-top: 11vh;">
+
+        <div id="contenedor-central">
+            <div class="w3-card-4">
+                <h3> <b>PROJECT MANAGEMENT </b> </h3>
+                <div class="columnas-sv">
+                    <img src="../images/servicios/project management.jpg" alt="">
+
+                    <p>Abarcamos la organización, el planeamiento, la motivación y el control de los recursos con la finalidad de alcanzar los objetivos propuestos para lograr el éxito en uno o varios proyectos dentro de las limitaciones establecidas. <br>                        <br> Los proyectos de inversión en grandes infraestructuras y bienes muebles han dado lugar a la aparición del project management, un nuevo tipo de gestión de los mismos que pretende abaratar costes del proyecto asegurando su calidad
+                        y el cumplimiento de plazos.
+                        <br>
+                        <br>Gestion integral: <br>
+                        <br> • Definicion estratégica
+                        <br> • Diseño
+                        <br> • Compras
+                        <br> • Construcción
+                        <br> • Puesta en Marcha
+
+
+                    </p>
+                </div>
 
 
     </main>
+
     <footer>
         <div class="footer">
             <div class="footer-col-1-2">
                 <h4>Síguenos en:</h4>
                 <div class="redes-sociales">
-                    <a href="www.twitter.com/"><img src="images/twitter.svg"></a>
-                    <a href="www.instagram.com/"><img src="images/instagram.svg"></a>
-                    <a href="www.linkedin.com/"><img src="images/linkedin.svg"></a>
-                    <a href="www.facebook.com"><img src="images/facebook.svg"></a>
+                    <a href="www.twitter.com/"><img src="../images/twitter.svg"></a>
+                    <a href="www.instagram.com/"><img src="../images/instagram.svg"></a>
+                    <a href="www.linkedin.com/"><img src="../images/linkedin.svg"></a>
+                    <a href="www.facebook.com"><img src="../images/facebook.svg"></a>
                 </div>
             </div>
             <div class="footer-col-3">
@@ -136,7 +144,7 @@
     </script>
     <!--estos de abajo no borrar-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/menuResponsive.js"></script>
+    <script src="../js/menuResponsive.js"></script>
 </body>
 
 </html>

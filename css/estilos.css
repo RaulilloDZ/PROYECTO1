@@ -463,7 +463,8 @@ a.figura {
 
 .columnas-sv img {
     width: 50%;
-    margin: 0 2% 2% 2%;
+    height: 50%;
+    margin: auto;
 }
 
 .columnas-sv p {
@@ -483,7 +484,7 @@ a.figura {
 footer {
     padding-top: 20px;
     background-color: #313131;
-    color: white
+    color: white;
 }
 
 .footer {
