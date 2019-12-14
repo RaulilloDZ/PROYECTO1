@@ -478,6 +478,33 @@ a.figura {
     padding-bottom: 2%;
 }
 
+.card-ejemplo {
+    width: 30%;
+}
+
+@media screen and (max-width: 990px) {
+    #contenedor-central {
+        width: 90%;
+        margin: auto;
+    }
+    .columnas-sv {
+        display: block;
+        margin: auto;
+    }
+    .columnas-sv img {
+        width: 100%;
+        margin: auto;
+    }
+    .cols-ejemplos {
+        margin: auto;
+        display: block;
+    }
+    .card-ejemplo {
+        margin: 5%;
+        width: auto;
+    }
+}
+
 
 /* -------------------------FOOTER -------------------------------- */
 
