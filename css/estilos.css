@@ -15,7 +15,6 @@ body {
 
 
 /*GLOBALES*/
-
 .no-selectable {
     -moz-user-select: none;
     -webkit-user-select: none;
@@ -548,7 +547,9 @@ footer i {
     float: left;
     margin-right: 8px;
 }
-
+footer hr{
+  display: flex!important;
+}
 hr {
     width: 100%;
 }
