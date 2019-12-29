@@ -335,6 +335,7 @@ a.figura {
 .card-sv {
     width: 28rem;
     height: 44rem;
+    box-shadow: 0 0 16px darkgrey;
 }
 
 .otros-sv {
