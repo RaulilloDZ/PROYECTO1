@@ -6,6 +6,7 @@
 }
 
 body {
+    max-width: 100%;
     font-size: 1.6rem;
     line-height: 1.8;
     background-color: white;
@@ -44,7 +45,7 @@ h4 {
 }
 
 h5 {
-    padding-top: 5%;
+    padding-top: 30px;
     margin-top: 0;
     font-family: 'Ropa Sans', sans-serif;
     font-size: 100%;
@@ -74,6 +75,9 @@ a:hover {
 
 .txt-osc {
     color: #313131!important;
+}
+.justificado{
+  text-align: justify!important;
 }
 
 
@@ -413,37 +417,34 @@ a.figura {
     background-image: url(../images/header-proyectos.jpg);
     height: 40vh;
 }
-
 .contenido-pr {
     background-color: #313131;
     color: white;
     padding: 0 auto 2% auto;
 }
-
 .contenido-pr p {
     text-align: justify;
     width: 90%;
     margin: auto;
 }
-
+.proyecto p{
+  text-align: justify;
+}
 .omansa {
     width: 90%;
     display: flex;
     margin: auto;
 }
-
 .omansa img {
     width: 30%;
-    margin: auto 5% auto 5%;
+    margin: auto 5%;
 }
-
 .omansa p {
-    margin: auto;
+    margin: auto 0;
 }
 
 
 /* ACTUALIDAD */
-
 .header-act {
     background-image: url(../images/header-actualidad.jpg);
     height: 40vh;
@@ -621,6 +622,7 @@ hr {
     }
     .header-inicio {
         background-image: url(../images/header-mobile.jpg);
+        height: 100vh;
     }
     .header-inicio .more,
     .more:after {
