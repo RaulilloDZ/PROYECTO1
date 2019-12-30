@@ -15,6 +15,7 @@ body {
 
 
 /*GLOBALES*/
+
 .no-selectable {
     -moz-user-select: none;
     -webkit-user-select: none;
@@ -426,13 +427,18 @@ a.figura {
 }
 
 .omansa {
+    width: 90%;
     display: flex;
     margin: auto;
-    padding: 5% 0 3% 0;
 }
 
 .omansa img {
-    /*................*/
+    width: 30%;
+    margin: auto 5% auto 5%;
+}
+
+.omansa p {
+    margin: auto;
 }
 
 
@@ -547,9 +553,11 @@ footer i {
     float: left;
     margin-right: 8px;
 }
-footer hr{
-  display: flex!important;
+
+footer hr {
+    display: flex!important;
 }
+
 hr {
     width: 100%;
 }
