@@ -630,10 +630,8 @@ hr {
     }
     .header-inicio {
         background-image: url(../images/header-mobile.jpg);
-        background-position: center center;
-        background-size: cover;
         height: 100vh;
-        min-height: 40rem;
+        background-position: center center;
         background-repeat: no-repeat;
     }
     .header-inicio .more,
