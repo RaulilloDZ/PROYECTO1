@@ -6,6 +6,7 @@
 }
 
 body {
+    max-width: 100%;
     font-size: 1.6rem;
     line-height: 1.8;
     background-color: white;
@@ -44,7 +45,7 @@ h4 {
 }
 
 h5 {
-    padding-top: 5%;
+    padding-top: 30px;
     margin-top: 0;
     font-family: 'Ropa Sans', sans-serif;
     font-size: 100%;
@@ -74,6 +75,10 @@ a:hover {
 
 .txt-osc {
     color: #313131!important;
+}
+
+.justificado {
+    text-align: justify!important;
 }
 
 
@@ -426,6 +431,10 @@ a.figura {
     margin: auto;
 }
 
+.proyecto p {
+    text-align: justify;
+}
+
 .omansa {
     width: 90%;
     display: flex;
@@ -434,11 +443,11 @@ a.figura {
 
 .omansa img {
     width: 30%;
-    margin: auto 5% auto 5%;
+    margin: auto 5%;
 }
 
 .omansa p {
-    margin: auto;
+    margin: auto 0;
 }
 
 
