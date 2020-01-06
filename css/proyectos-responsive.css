@@ -1,6 +1,6 @@
 main hr{
   width: 90%;
-  margin:inherit auto;
+  margin:20px auto;
 }
 @media screen and (max-width: 990px) {
     .omansa {
