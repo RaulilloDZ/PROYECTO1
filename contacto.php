@@ -70,7 +70,9 @@
 
                 <h3 class="centro">La consulta se envió correctamente.</h3>
                 <br>
-                <a href="contacto.php" class="btn btn-info btn-lg">Volver a contactar</a>
+                <div class="submit">
+                    <a href="contacto.php" class="btn btn-info btn-lg">Volver a contactar</a>
+                </div>
                 <br>
                 <?php
                   } else{
