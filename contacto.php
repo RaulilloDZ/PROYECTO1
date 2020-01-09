@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="es" dir="ltr">
+<html lang="es-ES" dir="ltr">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="author" content="EPITCO">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="encoding" charset="utf-8" />
+  <meta name="author" content="EPITCO" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="epit, desarrollo, arquitectura, ingeniería, informática, impresión, formación, servicio, obra" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
 
     <title>Contacto | EPITCO</title>
     <link rel="shortcut icon" href="images/favicon.png" type="image/png">
