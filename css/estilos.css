@@ -582,13 +582,19 @@ hr {
 
 @media screen and (max-width: 990px) {
     .logo-movil-on {
-        display: block;
+        display: flex;
+        align-content: space-between;
         position: absolute;
         top: 15px;
         font-weight: bold;
         font-size: 1.2em;
-        margin: 0 calc(50% - 38.405px);
+        margin: 0 calc(50% - 58px);
         color: #5ac2ff;
+    }
+    .logo-movil-on .-img{
+        margin-right:10px;
+        width: 27px;
+        height: 43px;
     }
     .lista-sm {
         display: none;
