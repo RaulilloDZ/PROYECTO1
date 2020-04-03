@@ -31,42 +31,10 @@
 
 <body>
     <header>
-        <nav id="navbar" class="barra">
-            <a href="index.html"><img id="logo" class="logo" src="images/favicon.png"></a>
-            <a href="index.html">
-                <div class="logo-movil-on">
-                    <img src="images\LogoEPIT AZUL.png" class="-img no-selectable" alt="epit web">
-                    <p class="no-selectable">EPIT CO</p>
-                </div>
-            </a>
-            <div class="myicono">
-                <i class="fa fa-bars" aria-hidden="true"></i></div>
-            <ul class="lista-sm">
-                <li><a href="nosotros.html">NOSOTROS</a></li>
-                <li class="dropdown"><a href="servicios.html" class="pre-figura">SERVICIOS </a><a class="figura"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
-                    <div class="dropdown-menu" style="display:none;">
-                        <div style="float:left; padding-right:10px;">
-                            <a class="dropdown-item" href="../servicios/diseño-grafico-y-desarrollo-web.html">Diseño y desarrollo web</a>
-                            <a class="dropdown-item" href="../servicios/diseño-impresion-escaneado-3d.html">Diseño, impresión y escaneado 3D</a>
-                            <a class="dropdown-item" href="../servicios/consultoria-estrategica.html">Consultoria estratégica</a>
-                            <a class="dropdown-item" href="../servicios/outsourcing.html">Outsourcing</a>
-                        </div>
-                        <div style="float:right; margin-right: 10px;">
-                            <a class="dropdown-item" href="../servicios/project-management.html">Project management</a>
-                            <a class="dropdown-item" href="../servicios/formacion.html">Formación</a>
-                            <a class="dropdown-item" href="../servicios/ingenieria-proyectos.html">Ingeniería de proyectos</a>
-                            <a class="dropdown-item" href="../servicios/organizacion-de-eventos.html">Organización de eventos</a>
-                        </div>
-                    </div>
-                </li>
-                <li><a href="proyectos.html">PROYECTOS</a></li>
-                <li><a href="actualidad.html">ACTUALIDAD</a></li>
-                <li><a href="contacto.html">CONTACTO</a></li>
-            </ul>
-        </nav>
+        <?php include_once 'templates/header.php'; ?>
+        <div class="contenido-header contacto"></div>
     </header>
     <main>
-        <div class="contenido-header contacto"></div>
         <h1 class="encabezado-seccion">Contacto</h1>
         <div class="contenedor seccion contenido-centrado">
             <?php
@@ -110,67 +78,4 @@
         </div>
 
     </main>
-    <footer>
-        <div class="footer">
-            <div class="footer-col-1-2">
-                <h4>Síguenos en:</h4>
-                <div class="redes-sociales">
-                    <a href="www.twitter.com/"><img src="images/twitter.svg"></a>
-                    <a href="www.instagram.com/"><img src="images/instagram.svg"></a>
-                    <a href="www.linkedin.com/"><img src="images/linkedin.svg"></a>
-                    <a href="www.facebook.com"><img src="images/facebook.svg"></a>
-                </div>
-            </div>
-            <div class="footer-col-3">
-                <h4>Contacto</h4>
-                <i class="fa fa-phone" aria-hidden="true"></i>
-                <p>Teléfono: 123 45 67 89</p>
-                <i class="fa fa-at" aria-hidden="true"></i>
-                <p>Correo: algo@epitco.com</p>
-                <i class="fa fa-map-marker" aria-hidden="true"></i>
-                <p>Localización: C/... , 32, Cartagena</p>
-            </div>
-        </div>
-        <hr>
-        <div class="copy">
-            <p><a href="#">Politica de privacidad</a></p>
-            <script type="text/javascript">
-                update = new Date().getFullYear();
-                document.write("EPIT CO Copyright &copy; " + update + " " + "All Rights Reserved.");
-            </script>
-        </div>
-    </footer>
-
-
-
-
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <!--MENU DROPDOWN-->
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $(".dropdown").click(function() {
-                $(".dropdown-menu").slideToggle("fast");
-            });
-        });
-    </script>
-    <!-- DETECTO EL SCROLL -->
-    <script>
-        $(window).scroll(function() {
-            if ($("#navbar").offset().top > 10 && screen.width > 600) {
-                $("#navbar").addClass("barra-scroll");
-                $("#logo").addClass("lg-scroll");
-
-            } else {
-                $("#navbar").removeClass("barra-scroll");
-                $("#logo").removeClass("lg-scroll");
-
-            }
-        });
-    </script>
-    <!--estos de abajo no borrar-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/menuResponsive.js"></script>
-</body>
-
-</html>
+<?php include_once 'templates/footer.php'; ?>
