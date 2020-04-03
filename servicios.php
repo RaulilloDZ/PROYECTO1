@@ -40,20 +40,19 @@
                 <div class="sv-row">
 
                     <div class="sv-col">
-                        <a href="servicios/diseño-grafico-y-desarrollo-web.html">
+                        <a href="servicios/diseño-grafico-y-desarrollo-web.php">
                             <div class="card card-sv">
                                 <img src="images/servicios/diseño grafico.jpg" class="card-img-top">
                                 <div class="card-body">
                                     <h6>DISEÑO GRÁFICO Y DESARROLLO WEB</h6>
-                                    <p class="card-text">Nos encargamos de la identidad corporativa de tu empresa. Cubrimos todas las necesidades de identidad visual, tanto de diseño y desarrollo web, como de cartelería, papelería, productos de empresa o desarrollo de plataformas
-                                        de gestión de usuarios.</p>
+                                    <p class="card-text">Nos encargamos de la identidad corporativa de tu empresa. Cubrimos todas las necesidades de identidad visual, tanto de diseño y desarrollo web, como de cartelería, papelería, productos de empresa o desarrollo de plataformas de gestión de usuarios.</p>
                                 </div>
                             </div>
                         </a>
                     </div>
 
                     <div class="sv-col">
-                        <a href="servicios/diseño-impresion-escaneado-3d.html">
+                        <a href="servicios/diseño-impresion-escaneado-3d.php">
                             <div class="card card-sv">
                                 <img src="images/servicios/impresion 3d.jpg" class="card-img-top">
                                 <div class="card-body">
@@ -65,13 +64,12 @@
                     </div>
 
                     <div class="sv-col">
-                        <a href="servicios/consultoria-estrategica.html">
+                        <a href="servicios/consultoria-estrategica.php">
                             <div class="card card-sv">
                                 <img src="images/servicios/consultoria estrategica.jpg" class="card-img-top">
                                 <div class="card-body">
                                     <h6>CONSULTORÍA ESTRATÉGICA</h6>
-                                    <p class="card-text">Nuestra labor consultora va mucho más allá de un simple asesoramiento, trabajamos mano a mano con el cliente para alcanzar los objetivos. Aportamos a nuestros clientes un amplio abanico de servicios de los que obtendrá
-                                        una alta rentabilidad.</p>
+                                    <p class="card-text">Nuestra labor consultora va mucho más allá de un simple asesoramiento, trabajamos mano a mano con el cliente para alcanzar los objetivos. Aportamos a nuestros clientes un amplio abanico de servicios de los que obtendrá una alta rentabilidad.</p>
                                 </div>
                             </div>
                         </a>
@@ -81,13 +79,12 @@
 
                 <div class="sv-row">
                     <div class="sv-col">
-                        <a href="servicios/outsourcing.html">
+                        <a href="servicios/outsourcing.php">
                             <div class="card card-sv">
                                 <img src="images/servicios/outsourcing.jpg" class="card-img-top">
                                 <div class="card-body">
                                     <h6>OUTSOURCING</h6>
-                                    <p class="card-text">Ofrecemos servicios empresariales a nivel directivo, como direcciones de obra, estudios y presentación de licitaciones públicas o privadas. Realizamos servicios de Ingeniería externalizada para empresas y comunicación
-                                        corporativa y Marketing.
+                                    <p class="card-text">Ofrecemos servicios empresariales a nivel directivo, como direcciones de obra, estudios y presentación de licitaciones públicas o privadas. Realizamos servicios de Ingeniería externalizada para empresas y comunicación corporativa y Marketing.
                                     </p>
                                 </div>
                             </div>
@@ -107,13 +104,12 @@
                     </div>
 
                     <div class="sv-col">
-                        <a href="#">
+                        <a href="servicios\organizacion-de-eventos.php">
                             <div class="card card-sv">
                                 <img src="images/servicios/organizacion de eventos.jpg" class="card-img-top">
                                 <div class="card-body">
                                     <h6>ORGANIZACIÓN DE EVENTOS</h6>
-                                    <p class="card-text">Aumentamos la visibilidad de su empresa con la comunicación de su Know How empresarial, su cultura organizativa y los productos o servicios que es capaz de ofrecer a sus clientes. Para ello contamos con especialistas
-                                        en comunicación y marketing.</p>
+                                    <p class="card-text">Aumentamos la visibilidad de su empresa con la comunicación de su Know How empresarial, su cultura organizativa y los productos o servicios que es capaz de ofrecer a sus clientes. Para ello contamos con especialistas en comunicación y marketing.</p>
                                 </div>
                             </div>
                         </a>
@@ -122,13 +118,12 @@
                 </div>
                 <div class="sv-row">
                     <div class="sv-col">
-                        <a href="../servicios/project-management.html">
+                        <a href="servicios/project-management.php">
                             <div class="card card-sv">
                                 <img src="images/servicios/project management.jpg" class="card-img-top">
                                 <div class="card-body">
                                     <h6>PROJECT MANAGEMENT</h6>
-                                    <p class="card-text">Abarcamos la organización, el planeamiento, la motivación y el control de los recursos con la finalidad de alcanzar los objetivos propuestos para lograr el éxito en uno o varios proyectos dentro de las limitaciones
-                                        establecidas.
+                                    <p class="card-text">Abarcamos la organización, el planeamiento, la motivación y el control de los recursos con la finalidad de alcanzar los objetivos propuestos para lograr el éxito en uno o varios proyectos dentro de las limitaciones establecidas.
                                     </p>
                                 </div>
                             </div>
@@ -136,26 +131,24 @@
                     </div>
 
                     <div class="sv-col">
-                        <a href="#">
+                        <a href="servicios\formacion.php">
                             <div class="card card-sv">
                                 <img src="images/servicios/formacion.jpg" class="card-img-top">
                                 <div class="card-body">
                                     <h6>FORMACIÓN</h6>
-                                    <p class="card-text">La formación continua incrementa la capacidad de los ingenieros para resolver problemas y mejorar la competitividad de sus servicios profesionales. Esta plataforma de formación mejora los medios para el aprendizaje
-                                        gracias a la unión de las entidades que forman este proyecto.</p>
+                                    <p class="card-text">La formación continua incrementa la capacidad de los ingenieros para resolver problemas y mejorar la competitividad de sus servicios profesionales. Esta plataforma de formación mejora los medios para el aprendizaje gracias a la unión de las entidades que forman este proyecto.</p>
                                 </div>
                             </div>
                         </a>
                     </div>
 
                     <div class="sv-col">
-                        <a href="#">
+                        <a href="servicios\ingenieria-proyectos.php">
                             <div class="card card-sv">
                                 <img src="images/servicios/ingenieria de proyectos.jpg" class="card-img-top">
                                 <div class="card-body">
                                     <h6>INGENIERÍA DE PROYECTOS</h6>
-                                    <p class="card-text">Realización de proyectos, direcciones de obra y coordinaciones de seguridad y salud, como la apertura de todo tipo de actividades, bien sean del sector comercial, pública concurrencia o de todo tipo de actividad, realizacion
-                                        de Instalaciones Eléctricas...</p>
+                                    <p class="card-text">Realización de proyectos, direcciones de obra y coordinaciones de seguridad y salud, como la apertura de todo tipo de actividades, bien sean del sector comercial, pública concurrencia o de todo tipo de actividad, realizacion de Instalaciones Eléctricas...</p>
                                 </div>
                             </div>
                         </a>

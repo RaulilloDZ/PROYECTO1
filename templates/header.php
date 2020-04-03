@@ -13,16 +13,16 @@
         <li class="dropdown"><a href="servicios.php" class="pre-figura">SERVICIOS </a><a class="figura"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
             <div class="dropdown-menu" style="display:none;">
                 <div style="float:left; padding-right:10px;">
-                    <a class="dropdown-item" href="servicios\diseño-grafico-y-desarrollo-web.html">Diseño y desarrollo web</a>
-                    <a class="dropdown-item" href="../servicios/diseño-impresion-escaneado-3d.html">Diseño, impresión y escaneado 3D</a>
-                    <a class="dropdown-item" href="../servicios/consultoria-estrategica.html">Consultoria estratégica</a>
-                    <a class="dropdown-item" href="../servicios/outsourcing.html">Outsourcing</a>
+                    <a class="dropdown-item" href="servicios/diseño-grafico-y-desarrollo-web.php">Diseño y desarrollo web</a>
+                    <a class="dropdown-item" href="servicios/diseño-impresion-escaneado-3d.php">Diseño, impresión y escaneado 3D</a>
+                    <a class="dropdown-item" href="servicios/consultoria-estrategica.php">Consultoria estratégica</a>
+                    <a class="dropdown-item" href="servicios/outsourcing.php">Outsourcing</a>
                 </div>
                 <div style="float:right; margin-right: 10px;">
-                    <a class="dropdown-item" href="../servicios/project-management.html">Project management</a>
-                    <a class="dropdown-item" href="../servicios/formacion.html">Formación</a>
-                    <a class="dropdown-item" href="../servicios/ingenieria-proyectos.html">Ingeniería de proyectos</a>
-                    <a class="dropdown-item" href="../servicios/organizacion-de-eventos.html">Organización de eventos</a>
+                    <a class="dropdown-item" href="servicios/project-management.php">Project management</a>
+                    <a class="dropdown-item" href="servicios/formacion.php">Formación</a>
+                    <a class="dropdown-item" href="servicios/ingenieria-proyectos.php">Ingeniería de proyectos</a>
+                    <a class="dropdown-item" href="servicios/organizacion-de-eventos.php">Organización de eventos</a>
                 </div>
             </div>
         </li>
