@@ -13,7 +13,7 @@
         <li class="dropdown"><a href="servicios.php" class="pre-figura">SERVICIOS </a><a class="figura"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
             <div class="dropdown-menu" style="display:none;">
                 <div style="float:left; padding-right:10px;">
-                    <a class="dropdown-item" href="../servicios/diseño-grafico-y-desarrollo-web.html">Diseño y desarrollo web</a>
+                    <a class="dropdown-item" href="servicios\diseño-grafico-y-desarrollo-web.html">Diseño y desarrollo web</a>
                     <a class="dropdown-item" href="../servicios/diseño-impresion-escaneado-3d.html">Diseño, impresión y escaneado 3D</a>
                     <a class="dropdown-item" href="../servicios/consultoria-estrategica.html">Consultoria estratégica</a>
                     <a class="dropdown-item" href="../servicios/outsourcing.html">Outsourcing</a>
