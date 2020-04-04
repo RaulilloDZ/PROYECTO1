@@ -20,8 +20,8 @@
             </div>
         </div>
         <hr>
-        <div class="copy">
-            <p><a href="#">Politica de privacidad</a></p>
+        <div class="copy margen">
+            <p><a href="#">Política de privacidad</a></p>
             <script type="text/javascript">
                 update = new Date().getFullYear();
                 document.write("EPIT CO Copyright &copy; " + update + " " + "All Rights Reserved.");
@@ -46,18 +46,14 @@
             if ($("#navbar").offset().top > 10 && screen.width > 600) {
                 $("#navbar").addClass("barra-scroll");
                 $("#logo").addClass("lg-scroll");
-
             } else {
                 $("#navbar").removeClass("barra-scroll");
                 $("#logo").removeClass("lg-scroll");
-
             }
         });
     </script>
-
     <!--estos de abajo no borrar-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/menuResponsive.js"></script>
     </body>
-
 </html>

@@ -72,7 +72,7 @@
                     <input type="submit" value="Enviar" class="btn btn-info btn-lg">
                 </div>
 
-                <p>Los campos marcados con * son de cumplimentación obligatoria.</p>
+                <p>Los campos marcados con * son obligatorios.</p>
             </form>
             <?php } ?>
         </div>
