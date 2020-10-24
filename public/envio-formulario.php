@@ -6,7 +6,7 @@ $empresa_usuario=$_POST['empresa'];
 $consulta_usuario=$_POST['mensaje'];
 // Creo 3 variables que me toman lo que se envía por POST de cada valor del formulario
 
-$destino="joseto.lopez00@gmail.com";
+$destino="contacto@epitco.es";
 
 $asunto="Consulta enviada desde www.EPITCO.es";
 
