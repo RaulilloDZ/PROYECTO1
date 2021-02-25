@@ -342,8 +342,13 @@ a.figura {
 
 .card-sv {
     width: 28rem;
-    height: 44rem;
+    height: 47rem;
     box-shadow: 0 0 16px darkgrey;
+}
+
+.card-sv p.card-text{
+    text-align: justify;
+    margin: auto 10px;
 }
 
 .otros-sv {
@@ -411,9 +416,17 @@ a.figura {
 /* NUESTROS CLIENTES*/
 
 .img-clientes {
-    width: 75%;
+    width: auto;
+    height: 120px;
 }
-
+.img-clientes-1{
+    width:120px;
+    height: 120px;
+}
+.img-clientes-2{
+    width:150px;
+    height: 120px;
+}
 
 /* PROYECTOS */
 

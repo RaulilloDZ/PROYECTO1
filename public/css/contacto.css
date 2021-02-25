@@ -8,21 +8,24 @@ body {
 .contactar{
     text-align: center;
     margin-bottom: 2%;
-} 
-
-.ct-btn{
+}
+.contactar p{
+    margin-bottom: 30px;
+}
+a.ct-btn{
+    text-decoration: none;
     background-color: #4f4f4f;
     color: #e1e1e1;
     padding: 1%;
 }
-.mapa{
-  position: relative;
-  overflow: hidden;
-  width: 90%;
-  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
-  margin: auto; 
-  margin-bottom: 1%;
 
+.ct-btn:hover{
+    background-color: white;
+    color:black;
+    border: 2px solid black;
+    border-radius: 6px;
+    transition-timing-function: ease-in;
+    transition-duration: 0.5s;
 }
 
 .contenido-header {
