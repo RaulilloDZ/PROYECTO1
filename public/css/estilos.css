@@ -85,6 +85,12 @@ a:hover {
     padding: 10px 40px;
 }
 
+.centrar{
+
+    margin: auto !important;
+    text-align: center !important;
+}
+
 /* NAVBAR */
 
 .logo {
@@ -415,18 +421,20 @@ a.figura {
 
 /* NUESTROS CLIENTES*/
 
+
 .img-clientes {
     width: auto;
     height: 120px;
+    margin: 15px;
 }
-.img-clientes-1{
-    width:120px;
-    height: 120px;
+
+.oman{
+    width: 20% !important;
+    height: 10% !important;
+    padding-top: 20px !important;
 }
-.img-clientes-2{
-    width:150px;
-    height: 120px;
-}
+
+
 
 /* PROYECTOS */
 
@@ -690,8 +698,15 @@ hr {
         width: 100%;
         padding-bottom: 10px;
     }
+    .fotos-clientes{
+        display: block;
+    }
     .img-clientes {
-        width: 120%;
+        width: auto;
+    }
+    .oman{
+        width: 70% !important;
+        height: auto;
     }
     footer {
         padding-top: 15px;
