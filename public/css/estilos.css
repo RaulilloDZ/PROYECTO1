@@ -482,6 +482,38 @@ a.figura {
     height: 40vh;
 }
 
+#art-actualidad{
+    width: 94%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0 3%;
+}
+#art-actualidad article{
+    justify-content: space-evenly;
+    flex:0 1 47%;
+    margin:auto!important;
+    margin-bottom: 30px!important;
+}
+#art-actualidad article p{
+    text-align: justify;
+}
+#art-actualidad article h3{
+    text-align: unset;
+    color:#3c3c3c;
+    text-transform: uppercase;
+}
+@media screen and (max-width: 990px) {
+    #art-actualidad{
+        width: 95%;
+        display: block;
+        margin: 0px 2.5%!important;
+    }
+    #art-actualidad article{
+        width: 100%;
+
+    }
+}
 
 /*////////////////////////////  PAGINAS SERVICIOS  //////////////////////////////*/
 
