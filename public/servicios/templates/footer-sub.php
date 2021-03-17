@@ -3,10 +3,10 @@
             <div class="footer-col-1-2">
                 <h4>Síguenos en:</h4>
                 <div class="redes-sociales">
-                    <a href="www.twitter.com/"><img src="../images/twitter.svg"></a>
-                    <a href="www.instagram.com/"><img src="../images/instagram.svg"></a>
-                    <a href="www.linkedin.com/"><img src="../images/linkedin.svg"></a>
-                    <a href="www.facebook.com"><img src="../images/facebook.svg"></a>
+                    <a target="_blank" href="https://www.twitter.com/EpitCO1"><img src="../images/twitter.svg"></a>
+                    <a target="_blank" href="https://www.instagram.com/epit.co/"><img src="../images/instagram.svg"></a>
+                    <a target="_blank" href="https://www.linkedin.com/company/epit-co"><img src="../images/linkedin.svg"></a>
+                    <a target="_blank" href="https://www.facebook.com/epit.co"><img src="../images/facebook.svg"></a>
                 </div>
             </div>
             <div class="footer-col-3">
