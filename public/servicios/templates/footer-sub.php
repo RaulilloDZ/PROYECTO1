@@ -12,11 +12,11 @@
             <div class="footer-col-3">
                 <h4>Contacto</h4>
                 <i class="fa fa-phone" aria-hidden="true"></i>
-                <p>Teléfono: 123 45 67 89</p>
+                <p>Teléfono: 629 03 02 56</p>
                 <i class="fa fa-at" aria-hidden="true"></i>
-                <p>Correo: algo@epitco.com</p>
+                <p>Correo: contacto@epitco.es</p>
                 <i class="fa fa-map-marker" aria-hidden="true"></i>
-                <p>Localización: C/... , 32, Cartagena</p>
+                <p>Localización: Murcia, Murcia</p>
             </div>
         </div>
         <hr>
