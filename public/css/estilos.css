@@ -16,7 +16,14 @@ body {
 
 
 /*GLOBALES*/
-
+.logo-fix{
+    top:5px!important;
+    margin: 0!important;
+    left: 5px!important;
+}
+.logo-fix p{
+    margin: 0!important;
+}
 .no-selectable {
     -moz-user-select: none;
     -webkit-user-select: none;
