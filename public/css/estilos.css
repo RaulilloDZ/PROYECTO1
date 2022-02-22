@@ -463,22 +463,19 @@ a.figura {
 }
 
 .proyecto p {
+    margin: auto 0;
     text-align: justify;
 }
 
-.omansa {
+.proyecto {
     width: 90%;
     display: flex;
     margin: auto;
 }
 
-.omansa img {
+.proyecto img {
     width: 30%;
     margin: auto 5%;
-}
-
-.omansa p {
-    margin: auto 0;
 }
 
 
