@@ -27,7 +27,7 @@
             </div>
         </li>
         <li><a href="../proyectos.php">PROYECTOS</a></li>
-        <li><a href="../actualidad.php">ACTUALIDAD</a></li>
+        <li><a href="../noticias.php">NOTICIAS</a></li>
         <li><a href="../contacto.php">CONTACTO</a></li>
     </ul>
 </nav>

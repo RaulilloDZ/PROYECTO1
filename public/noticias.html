@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="es-ES" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="author" content="EPITCO" />
+  <meta name="robots" content="noindex" />
+  <meta name="keywords"
+    content="epit, desarrollo, arquitectura, ingeniería, informática, impresión, formación, servicio, obra" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="theme-color" content="#1f1f1f" />
+
+  <title>Noticias | EPITCO</title>
+  <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+  <!--W3 CSS-->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <!-- Bootstrap -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://use.fontawesome.com/78a03bac99.js"></script>
+  <!-- Tipografia -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ropa+Sans&display=swap" rel="stylesheet">
+  <!-- Nuestros estilos -->
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/actualidad-responsive.css">
+  <!--Firebase Hosting-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+  <header>
+    <nav id="navbar" class="barra">
+      <a href="/"><img id="logo" class="logo" src="images/favicon.png" alt="logo epit"></a>
+      <div class="logo-movil-on">
+        <img src="images\LogoEPIT AZUL.png" class="-img no-selectable" alt="epit web">
+        <p class="no-selectable">EPIT CO</p>
+      </div>
+      <div class="myicono">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </div>
+      <ul class="lista-sm">
+        <li><a href="nosotros.html">NOSOTROS</a></li>
+
+        <li class="dropdown"><a href="servicios.html" class="pre-figura">SERVICIOS </a><a class="figura"><i
+              class="fa fa-chevron-down" aria-hidden="true"></i></a>
+          <div class="dropdown-menu" style="display:none;">
+            <div style="float:left; padding-right:10px;">
+              <a class="dropdown-item" href="servicios/diseño-grafico-y-desarrollo-web.html">Diseño y desarrollo web</a>
+              <a class="dropdown-item" href="servicios/diseño-impresion-escaneado-3d.html">Diseño, impresión y escaneado
+                3D</a>
+              <a class="dropdown-item" href="servicios/consultoria-estrategica.html">Consultoria estratégica</a>
+              <a class="dropdown-item" href="servicios/outsourcing.html">Outsourcing</a>
+            </div>
+            <div style="float:right; margin-right: 10px;">
+              <a class="dropdown-item" href="servicios/project-management.html">Project management</a>
+              <a class="dropdown-item" href="servicios/formacion.html">Formación</a>
+              <a class="dropdown-item" href="servicios/ingenieria-proyectos.html">Ingeniería de proyectos</a>
+              <a class="dropdown-item" href="servicios/organizacion-de-eventos.html">Organización de eventos</a>
+            </div>
+          </div>
+        </li>
+
+        <li><a href="proyectos.html">PROYECTOS</a></li>
+        <li><a href="noticias.html">NOTICIAS</a></li>
+        <li><a href="contacto.html">CONTACTO</a></li>
+      </ul>
+    </nav>
+
+    <!-- <?php include_once 'templates/header.html'; ?>-->
+    <div class="contenido-header header-act"></div>
+  </header>
+  <main class="w3-light-grey">
+    <div class="contenido">
+      <h5 style="text-align: center;">ÚLTIMAS NOVEDADES</h5>
+      <h3 style="color:darkgrey;">Síguenos la pista</h3>
+    </div>
+    <section class="w3-container" id="art-actualidad">
+
+      <!-- AQUI NUEVOS -->
+      <!-- TEMPLATE -->
+      <!-- 
+        <article class="w3-card-4 w3-margin w3-white w3-animate-opacity">
+          <div class="w3-container">
+            <h3><b>--TITULO--</b></h3>
+            <h5><span class="w3-opacity">--MES DIA, AÑO--</span></h5>
+          </div>
+
+          <div class="w3-container">
+            <p>--DESCRIPCION--</p>
+            <div class="w3-row">
+              <a href="--LINK--" target="_blank">
+                <p><button class="w3-button w3-padding-large w3-white w3-border "><b>Leer más &raquo;</b></button></p>
+              </a>
+            </div>
+          </div>
+        </article> 
+      -->
+      <article class="w3-card-4 w3-margin w3-white w3-animate-opacity">
+        <div class="w3-container">
+          <h3><b>DOS INGENIERAS GANAN LAS BECAS DE FORMACIÓN QUE OTORGA LA MUTUA DE LOS INGENIEROS</b></h3>
+          <h5><span class="w3-opacity">Octubre 20, 2022</span></h5>
+        </div>
+
+        <div class="w3-container">
+          <p>Por segundo año consecutivo, La Mutua de los Ingenieros ha otorgado a dos mujeres ingenierasuna beca de formación destinada a sufragar la matrícula del “Programa Directivo de Desarrollo (PDE)” organizado por Aula Magna Business School.</p>
+          <div class="w3-row">
+            <a href="https://www.ingenieros.es/noticias/ver/dos-ingenieras-ganan-las-becas-de-formacion-que-otorga-la-mutua-de-los-ingenieros/8556" target="_blank">
+              <p><button class="w3-button w3-padding-large w3-white w3-border "><b>Leer más &raquo;</b></button></p>
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <article class="w3-card-4 w3-margin w3-white w3-animate-opacity">
+        <div class="w3-container">
+          <h3><b>LA RECONSTRUCCIÓN DE UCRANIA SERÁ POSIBLE GRACIAS A LA IMPRESIÓN 3D</b></h3>
+          <h5><span class="w3-opacity">Octubre 20, 2022</span></h5>
+        </div>
+
+        <div class="w3-container">
+          <p>Desde febrero de 2022, Ucrania está siendo objeto de ofensivas militares por parte de Rusia. Una gran parte del país se ve afectada, incluyendo viviendas, instalaciones públicas y escuelas. Para ayudar a las víctimas, la organización sin ánimo de lucro Team4Humanity (TEAM4UA) ha empezado a hacer planes para reconstruir parte de las infraestructuras del país utilizando la impresión 3D.</p>
+          <div class="w3-row">
+            <a href="https://www.3dnatives.com/es/impresion-3d-ucrania-171020222/" target="_blank">
+              <p><button class="w3-button w3-padding-large w3-white w3-border "><b>Leer más &raquo;</b></button></p>
+            </a>
+          </div>
+        </div>
+      </article> 
+
+      <article class="w3-card-4 w3-margin w3-white w3-animate-opacity">
+        <div class="w3-container">
+          <h3><b>BATERIAS DE CINC</b></h3>
+          <h5><span class="w3-opacity">Octubre 19, 2022</span></h5>
+        </div>
+
+        <div class="w3-container">
+          <p>El fabricante estadounidense de baterías Urban Electric Power va a suministrar una cantidad inicial de 4.550 MWh de sus baterías alcalinas de zinc recargables durante los próximos cinco años al promotor de proyectos solares y de almacenamiento de energía Pine Gate Renewables.</p>
+          <div class="w3-row">
+            <a href="https://www.revistadyna.com/noticias-de-ingenieria/baterias-de-cinc" target="_blank">
+              <p><button class="w3-button w3-padding-large w3-white w3-border "><b>Leer más &raquo;</b></button></p>
+            </a>
+          </div>
+        </div>
+      </article> 
+
+      <article class="w3-card-4 w3-margin w3-white w3-animate-opacity">
+        <div class="w3-container">
+          <h3><b>FINALIZA LA INTERCONEXIÓN SUBMARINA DE 132 KV ENTRE LANZAROTE Y FUERTEVENTURA</b></h3>
+          <h5><span class="w3-opacity">Octubre 17, 2022</span></h5>
+        </div>
+
+        <div class="w3-container">
+          <p>La nueva interconexión entre Lanzarote y Fuerteventura a 132 kV ya es una realidad. Red Eléctrica ha finalizado con éxito el nuevo enlace de 132 kV entre islas, desde la subestación de Playa Blanca en Lanzarote, hasta la subestación de La Oliva en Fuerteventura.</p>
+          <div class="w3-row">
+            <a href="https://www.ingenieros.es/noticias/ver/finaliza-la-interconexion-submarina-de-132-kv-entre-lanzarote-y-fuerteventura/8555" target="_blank">
+              <p><button class="w3-button w3-padding-large w3-white w3-border "><b>Leer más &raquo;</b></button></p>
+            </a>
+          </div>
+        </div>
+      </article> 
+
+      <article class="w3-card-4 w3-margin w3-white w3-animate-opacity">
+        <div class="w3-container">
+          <h3><b>Reganosa operará la primera terminal de gas natural licuado de Cerdeña</b></h3>
+          <h5><span class="w3-opacity">Marzo 15, 2021</span></h5>
+        </div>
+
+        <div class="w3-container">
+          <p>La compañía española Reganosa operará y mantendrá la primera terminal de gas natural licuado (GNL) de
+            Cerdeña (Italia), cuya construcción en el puerto de Oristano, al oeste de la isla, se encuentra en su fase
+            final. De esta manera, la empresa gallega se convertirá en la única del mundo que...</p>
+          <div class="w3-row">
+            <a href="https://www.abc.es/economia/abci-reganosa-operara-primera-terminal-natural-licuado-cerdena-202102221642_noticia.html"
+              target="_blank">
+              <p><button class="w3-button w3-padding-large w3-white w3-border "><b>Leer más &raquo;</b></button></p>
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <article class="w3-card-4 w3-margin w3-white w3-animate-opacity">
+        <div class="w3-container">
+          <h3><b>La aventura de ayudar en 3D</b></h3>
+          <h5><span class="w3-opacity">Marzo 11, 2021</span></h5>
+        </div>
+
+        <div class="w3-container">
+          <p>La ONG Ayúdame3D, que fabrica prótesis solidarias con impresoras 3D, lanza su cuento solidario “HELPI y la
+            aventura de ayudar”. Todos los beneficios van destinados a ayudar a personas con discapacidad y a colectivos
+            vulnerables de todo el mundo gracias a la impresión 3D...</p>
+          <div class="w3-row">
+            <a href="http://www.3dprintingdesign.es/es/noticia/la-aventura-de-ayudar-en-3d" target="_blank">
+              <p><button class="w3-button w3-padding-large w3-white w3-border "><b>Leer más &raquo;</b></button></p>
+            </a>
+          </div>
+        </div>
+      </article>
+      <article class="w3-card-4 w3-margin w3-white w3-animate-opacity">
+        <div class="w3-container">
+          <h3><b>Desarrollan un prototipo portátil en 3D que produce agua a partir del aire</b></h3>
+          <h5><span class="w3-opacity">Marzo 10, 2021</span></h5>
+        </div>
+
+        <div class="w3-container">
+          <p>El proyecto, que responde al nombre de AIR2WATER, podría suponer una solución futura para abordar la
+            escasez de agua en todo el mundo y durante su producción se llevará a cabo innovaciones transformadoras de
+            nuevos materiales, procesos térmicos y fabricación aditiva. Un equipo multidisciplinario de investigadores
+            de GE Research...</p>
+          <div class="w3-row">
+            <a href="http://www.3dprintingdesign.es/es/noticia/desarrollan-un-prototipo-portatil-en-3d-que-produce-agua-a-partir-del-aire"
+              target="_blank">
+              <p><button class="w3-button w3-padding-large w3-white w3-border "><b>Leer más &raquo;</b></button></p>
+            </a>
+          </div>
+        </div>
+      </article>
+      <article class="w3-card-4 w3-margin w3-white w3-animate-opacity">
+        <div class="w3-container">
+          <h3><b>TECLA, una casa 3D hecha con materiales naturales</b></h3>
+          <h5><span class="w3-opacity">Marzo 7, 2021</span></h5>
+        </div>
+
+        <div class="w3-container">
+          <p>La marca italiana World’s Advanced Saving Project (WASP) es un modelo de desarrollo enfocado a construir
+            casas de bajo coste con material natural. De hecho acaba de finalizar Tecla, una vivienda diseñada por WASP
+            y Mario Cucinella Architects hecha con materiales reutilizables...</p>
+          <div class="w3-row">
+            <a href="https://www.impresoras3d.com/tecla-una-casa-3d-hecha-con-materiales-naturales/" target="_blank">
+              <p><button class="w3-button w3-padding-large w3-white w3-border "><b>Leer más &raquo;</b></button></p>
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <article class="w3-card-4 w3-margin w3-white w3-animate-opacity">
+        <div class="w3-container">
+          <h3><b>GENERACIÓN FOTOVOLTAICA EN LOS VIDRIOS DE VENTANAS</b></h3>
+          <h5><span class="w3-opacity">Marzo 2, 2021</span></h5>
+        </div>
+
+        <div class="w3-container">
+          <p>Aún está lejos de convertirse en realidad, pero ya se están dando los primeros pasos para hacer posible una
+            generación fotovoltaica directamente desde las ventanas que se abren en viviendas y oficinas. Investigadores
+            de la Universidad Nacional de Incheon (Corea del Sur) han mostrado los principios que pueden llevar a
+            obtener una inicial placa solar con una...</p>
+          <div class="w3-row">
+            <a href="https://www.revistadyna.com/noticias-de-ingenieria/generacion-fotovoltaica-en-vidrios-de-ventanas"
+              target="_blank">
+              <p><button class="w3-button w3-padding-large w3-white w3-border "><b>Leer más &raquo;</b></button></p>
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <article class="w3-card-4 w3-margin w3-white w3-animate-opacity">
+        <div class="w3-container">
+          <h3><b>Ya es posible disponer del coste estimado de reparación de un siniestro en 20 segundos y solo con las
+              fotos de un móvil</b></h3>
+          <h5><span class="w3-opacity">Febrero 21, 2021</span></h5>
+        </div>
+
+        <div class="w3-container">
+          <p>GFT presenta IDE (Intelligent Damage Evaluation), un sistema para el reconocimiento automático y la
+            evaluación de los daños de vehículos basado en Inteligencia Artificial (IA). Solo proporcionando el número
+            de matrícula del coche y las fotos de las áreas dañadas, la solución puede identificar el automóvil, evaluar
+            los daños e, incluso, utilizar los detalles de...</p>
+
+          <div class="w3-row">
+            <a href="https://www.ingenieros.es/noticias/ver/gft-ya-es-posible-disponer-del-coste-estimado-de-reparacion-de-un-siniestro-en-20-segundos-y-solo-con-las-fotos-de-un-movil/8166"
+              target="_blank">
+              <p><button class="w3-button w3-padding-large w3-white w3-border "><b>Leer más &raquo;</b></button></p>
+            </a>
+          </div>
+
+        </div>
+      </article>
+
+    </section>
+  </main>
+  <!-- <?php include_once 'templates/footer.html'; ?> -->
+  <footer>
+    <div class="footer">
+      <div class="footer-col-1-2">
+        <h4>Síguenos en:</h4>
+        <div class="redes-sociales">
+          <a target="_blank" href="https://www.twitter.com/EpitCO1"><img src="./images/twitter.svg"></a>
+          <a target="_blank" href="https://www.instagram.com/epit.co/"><img src="./images/instagram.svg"></a>
+          <a target="_blank" href="https://www.linkedin.com/company/epit-co"><img src="./images/linkedin.svg"></a>
+          <a target="_blank" href="https://www.facebook.com/epit.co"><img src="./images/facebook.svg"></a>
+        </div>
+      </div>
+      <div class="footer-col-3">
+        <h4>Contacto</h4>
+        <i class="fa fa-phone" aria-hidden="true"></i>
+        <p>Teléfono: 629 03 02 56</p>
+        <i class="fa fa-at" aria-hidden="true"></i>
+        <p>Correo: contacto@epitco.es</p>
+        <i class="fa fa-map-marker" aria-hidden="true"></i>
+        <p>Localización: Murcia, Murcia</p>
+      </div>
+    </div>
+    <hr>
+    <div class="copy margen">
+      <p><a href="#">Política de privacidad</a></p>
+      <script type="text/javascript">
+        update = new Date().getFullYear();
+        document.write("EPIT CO Copyright &copy; " + update + " " + "All Rights Reserved.");
+      </script>
+    </div>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+    integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+    integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+    crossorigin="anonymous"></script>
+  <!--MENU DROPDOWN-->
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $(".dropdown").click(function () {
+        $(".dropdown-menu").slideToggle("fast");
+      });
+    });
+  </script>
+  <!--DETECTO EL SCROLL-->
+  <script>
+    $(window).scroll(function () {
+      if ($("#navbar").offset().top > 10 && screen.width > 600) {
+        $("#navbar").addClass("barra-scroll");
+        $("#logo").addClass("lg-scroll");
+      } else {
+        $("#navbar").removeClass("barra-scroll");
+        $("#logo").removeClass("lg-scroll");
+      }
+    });
+  </script>
+  <!--estos de abajo no borrar-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/menuResponsive.js"></script>
+  <script>function loadScript(a) { var b = document.getElementsByTagName("head")[0], c = document.createElement("script"); c.type = "text/javascript", c.src = "https://tracker.metricool.com/resources/be.js", c.onreadystatechange = a, c.onload = a, b.appendChild(c) } loadScript(function () { beTracker.t({ hash: "6e1002fe21f95a21e69ba07531f9f31f" }) });</script>
+</body>
+
+</html>

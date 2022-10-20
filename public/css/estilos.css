@@ -479,7 +479,7 @@ a.figura {
 }
 
 
-/* ACTUALIDAD */
+/* NOTICIAS */
 
 .header-act {
     background-image: url(../images/header-actualidad.jpg);
@@ -491,7 +491,7 @@ a.figura {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    margin: 0 3%;
+    margin: 0 auto;
 }
 #art-actualidad article{
     justify-content: space-evenly;
